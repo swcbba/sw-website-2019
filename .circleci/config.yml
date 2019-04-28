@@ -32,7 +32,10 @@ jobs:
           key: v1-dist-{{ .Environment.CIRCLE_BRANCH }}-{{ .Environment.CIRCLE_SHA1 }}
           paths:
             - dist
+            - functions
             - package.json
+            - firebase.json
+            - .firebaserc
 
   deploy:
     docker:
