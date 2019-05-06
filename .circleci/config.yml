@@ -16,6 +16,9 @@ jobs:
           keys:
             - v1-dependencies-{{ checksum "package.json" }}
       - run:
+          name: Inject keys
+          command: npm run keys:inject
+      - run:
           name: Install dependencies
           command: npm install
       - save_cache:
