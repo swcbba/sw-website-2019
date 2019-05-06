@@ -1,3 +1,5 @@
+[![CircleCI](https://circleci.com/gh/swcbba/sw-website-2019.svg?style=svg)](https://circleci.com/gh/swcbba/sw-website-2019)
+
 # Techstars Global Startup Weekend Cochabamba 2019
 
 Startup Weekend Cochabamba template project.
