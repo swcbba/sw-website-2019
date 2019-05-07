@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { LanguageButtonService } from './layout/navbar/language-button/language-button.service';
+
+import { LanguageService } from './core/services/language.service';
 
 @Component({
   selector: 'sw-root',
@@ -7,9 +8,9 @@ import { LanguageButtonService } from './layout/navbar/language-button/language-
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent implements OnInit {
-  constructor(private languageService: LanguageButtonService) {}
+  constructor(private languageService: LanguageService) {}
 
-  ngOnInit() {
+  ngOnInit(): void {
     this.languageService.setDefaultLanguage();
   }
 }

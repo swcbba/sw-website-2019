@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { LanguageButtonService } from './language-button.service';
 
+import { LanguageService } from '../../../core/services/language.service';
 import { Languages } from '../../../shared/constants/languages.constant';
 
 @Component({
@@ -9,7 +9,7 @@ import { Languages } from '../../../shared/constants/languages.constant';
   styleUrls: ['./language-button.component.scss']
 })
 export class LanguageButtonComponent {
-  constructor(public language: LanguageButtonService) {}
+  constructor(public language: LanguageService) {}
 
   changeLanguage(): void {
     const newLanguage =

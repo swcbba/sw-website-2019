@@ -13,8 +13,8 @@ import { LanguageButtonComponent } from './navbar/language-button/language-butto
   declarations: [
     NavbarComponent,
     FooterComponent,
-    SidenavDirective,
-    LanguageButtonComponent
+    LanguageButtonComponent,
+    SidenavDirective
   ],
   exports: [NavbarComponent, FooterComponent],
   imports: [CommonModule, RouterModule, TranslateModule]

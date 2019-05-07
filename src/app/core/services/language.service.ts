@@ -3,10 +3,8 @@ import { Injectable } from '@angular/core';
 import { TranslateService } from '@ngx-translate/core';
 import { Observable, Subject } from 'rxjs';
 
-@Injectable({
-  providedIn: 'root'
-})
-export class LanguageButtonService {
+@Injectable()
+export class LanguageService {
   changeLanguage$: Observable<any>;
   currentLanguage: string;
   private languageChanged: Subject<any>;
