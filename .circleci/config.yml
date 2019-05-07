@@ -26,6 +26,9 @@ jobs:
           name: Linting
           command: npm run lint
       - run:
+          name: Inject keys
+          command: npm run keys:inject
+      - run:
           name: Building
           command: npm run build:client
       - save_cache:
