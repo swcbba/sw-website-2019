@@ -1,0 +1,7 @@
+.language-mobile-align {
+  float: right;
+  margin-right: 15px;
+  @media only screen and (min-width: 992px) {
+    display: none !important;
+  }
+}

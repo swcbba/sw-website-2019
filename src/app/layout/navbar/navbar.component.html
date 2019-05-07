@@ -9,9 +9,13 @@
           </a>
           <ul class="right hide-on-med-and-down">
             <li>
-              <a routerLink="/">Inicio</a>
+              <a routerLink="/">{{ 'home.init' | translate }}</a>
+            </li>
+            <li>
+              <sw-language-button></sw-language-button>
             </li>
           </ul>
+          <sw-language-button class="language-mobile-align"></sw-language-button>
         </div>
       </div>
     </nav>
@@ -19,7 +23,7 @@
 
   <ul swSidenav class="sidenav" id="mobile-menu">
     <li>
-      <a routerLink="/" class="sidenav-close">Inicio</a>
+      <a routerLink="/" class="sidenav-close">{{ 'home.init' | translate }}</a>
     </li>
   </ul>
 </header>
