@@ -1,3 +1,10 @@
-<p>
-  sponsors works!
-</p>
+<div class="container center-align">
+  Sponsors
+  <div class="row">
+    <div *ngFor="let sponsor of items | async" class="col s12 m6 l3 sponsor">
+      <a target="_blank" rel="noopener noreferrer" [href]="sponsor.link">
+        <img class="sponsors-logo" [src]="sponsor.pictureURL">
+      </a>
+    </div>
+  </div>
+</div>
