@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import {Component} from '@angular/core';
 import {Observable} from 'rxjs';
 import {AngularFirestore} from '@angular/fire/firestore';
 
@@ -8,10 +8,12 @@ import {AngularFirestore} from '@angular/fire/firestore';
   styleUrls: ['./sponsors.component.scss']
 })
 export class SponsorsComponent {
+  sponsors: Observable<any>;
+  sponsorFormURL: string;
 
-  items: Observable<any>;
   constructor(db: AngularFirestore) {
-    this.items = db.collection('sponsors').valueChanges();
+    this.sponsors = db.collection('sponsors').valueChanges();
+    this.sponsorFormURL = 'https://goo.gl/BA6fSS';
   }
 
 }

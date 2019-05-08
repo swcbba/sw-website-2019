@@ -1,10 +1,14 @@
 <div class="container center-align">
-  Sponsors
+  <p class="medium-text main-color">Sponsors</p>
   <div class="row">
-    <div *ngFor="let sponsor of items | async" class="col s12 m6 l3 sponsor">
+    <div *ngFor="let sponsor of sponsors | async" class="col s12 m6 l3 sponsor">
       <a target="_blank" rel="noopener noreferrer" [href]="sponsor.link">
-        <img class="sponsors-logo" [src]="sponsor.pictureURL">
+        <img class="sponsors-logo" [src]="sponsor.pictureURL" alt="">
       </a>
     </div>
   </div>
+  <a target="_blank" rel="noopener noreferrer" [href]="sponsorFormURL"
+     class=" call-to-action waves-effect small-text a_button">
+    Bienvenido Sponsor
+  </a>
 </div>
