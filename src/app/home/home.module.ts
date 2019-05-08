@@ -6,9 +6,10 @@ import { BannerComponent } from './banner/banner.component';
 import { EventsComponent } from './events/events.component';
 import { EventsService } from './events/events.service';
 import { SharedModule } from '../shared/shared.module';
+import { PartnersComponent } from './partners/partners.component';
 
 @NgModule({
-  declarations: [HomeComponent, BannerComponent, EventsComponent],
+  declarations: [HomeComponent, BannerComponent, EventsComponent, PartnersComponent],
   imports: [CommonModule, SharedModule],
   providers: [EventsService]
 })
