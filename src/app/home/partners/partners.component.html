@@ -1,6 +1,7 @@
 <div class="container center-align">
+  <p class="">Our Partners</p>
   <div class="row">
-    <div class="card-image col s12 m3 13 partner" *ngFor="let partner of partners | async">
+    <div class="card-image col s12 m3" *ngFor="let partner of partners | async">
       <a href="//{{partner.link}}">
         <img class="partner-logo" [src]="partner.logo_link">
       </a>

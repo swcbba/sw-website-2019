@@ -6,9 +6,11 @@ import { AngularFirestore } from '@angular/fire/firestore'
 })
 export class PartnerService {
 
-  constructor(private dataBase: AngularFirestore) { }
+  collectionName = 'partners';
+
+  constructor(private database: AngularFirestore) { }
 
   getPartners(): any {
-    return this.dataBase.collection('partners').valueChanges();
+    return this.database.collection(this.collectionName).valueChanges();
   }
 }

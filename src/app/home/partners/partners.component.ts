@@ -1,7 +1,9 @@
 import { Component, OnInit } from '@angular/core';
+
+import { Observable } from 'rxjs';
+
 import { PartnerService } from 'src/app/core/services/partner.service';
 import { Partner } from 'src/app/core/model/partner';
-import { Observable } from 'rxjs';
 
 @Component({
   selector: 'sw-partners',

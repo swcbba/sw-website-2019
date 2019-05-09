@@ -1,5 +1,7 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { AngularFireModule } from '@angular/fire'
+import { AngularFirestoreModule } from '@angular/fire/firestore'
 
 import { HomeComponent } from './home.component';
 import { BannerComponent } from './banner/banner.component';
@@ -8,8 +10,6 @@ import { EventsService } from './events/events.service';
 import { SharedModule } from '../shared/shared.module';
 import { PartnersComponent } from './partners/partners.component';
 import { environment } from 'src/environments/environment'
-import { AngularFireModule } from '@angular/fire'
-import { AngularFirestoreModule } from '@angular/fire/firestore'
 
 @NgModule({
   declarations: [HomeComponent, BannerComponent, EventsComponent, PartnersComponent],
