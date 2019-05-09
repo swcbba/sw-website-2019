@@ -16,12 +16,12 @@ export class PartnersComponent implements OnInit {
   
   constructor(private partnerService: PartnerService) { }
 
-  load_partners(): void {
+  loadPartners(): void {
     this.partners = this.partnerService.getPartners()
   }
 
   ngOnInit() {
-    this.load_partners()
+    this.loadPartners()
   }
 
 }

@@ -9,7 +9,7 @@ import { EventsComponent } from './events/events.component';
 import { EventsService } from './events/events.service';
 import { SharedModule } from '../shared/shared.module';
 import { PartnersComponent } from './partners/partners.component';
-import { environment } from 'src/environments/environment'
+import { environment } from 'src/environments/environment';
 
 @NgModule({
   declarations: [HomeComponent, BannerComponent, EventsComponent, PartnersComponent],
