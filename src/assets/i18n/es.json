@@ -5,5 +5,9 @@
   },
   "home": {
     "start": "Inicio"
+  },
+  "sponsor": {
+    "sponsors": "Patrocinadores",
+    "become_sponsor": "PATROCINAR"
   }
 }

@@ -5,5 +5,9 @@
   },
   "home": {
     "start": "Home"
+  },
+  "sponsor": {
+    "sponsors": "Sponsors",
+    "become_sponsor": "BECOME SPONSOR"
   }
 }
