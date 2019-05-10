@@ -7,10 +7,7 @@ import { Location } from '../../shared/constants/location.constant';
   templateUrl: './location.component.html',
   styleUrls: ['./location.component.scss']
 })
-export class LocationComponent implements OnInit {
+export class LocationComponent {
   eventLocationInfo = Location;
   zoom = 18;
-  constructor() {}
-
-  ngOnInit() {}
 }
