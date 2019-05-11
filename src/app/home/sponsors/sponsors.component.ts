@@ -11,8 +11,7 @@ import {Sponsor} from '../../shared/models/sponsor.model';
 export class SponsorsComponent implements OnInit {
   sponsors$: Observable<Sponsor[]>;
 
-  constructor(private sponsorService: SponsorsService) {
-  }
+  constructor(private sponsorService: SponsorsService) {}
 
   ngOnInit(): void {
     this.sponsors$ = this.sponsorService.getAll();
