@@ -12,6 +12,7 @@ import { LocationComponent } from './location/location.component';
 import { environment } from 'src/environments/environment';
 import { AboutComponent } from './about/about.component';
 import {TranslateModule} from '@ngx-translate/core';
+import { MetricsComponent } from './metrics/metrics.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import {TranslateModule} from '@ngx-translate/core';
     BannerComponent,
     EventsComponent,
     LocationComponent,
-    AboutComponent
+    AboutComponent,
+    MetricsComponent
   ],
   imports: [
     CommonModule,
