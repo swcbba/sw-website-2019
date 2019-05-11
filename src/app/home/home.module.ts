@@ -10,18 +10,22 @@ import { EventsService } from './events/events.service';
 import { SharedModule } from '../shared/shared.module';
 import { LocationComponent } from './location/location.component';
 import { environment } from 'src/environments/environment';
+import { AboutComponent } from './about/about.component';
+import {TranslateModule} from '@ngx-translate/core';
 
 @NgModule({
   declarations: [
     HomeComponent,
     BannerComponent,
     EventsComponent,
-    LocationComponent
+    LocationComponent,
+    AboutComponent
   ],
   imports: [
     CommonModule,
     SharedModule,
-    AgmCoreModule.forRoot(environment.googleMaps)
+    AgmCoreModule.forRoot(environment.googleMaps),
+    TranslateModule
   ],
   providers: [EventsService]
 })

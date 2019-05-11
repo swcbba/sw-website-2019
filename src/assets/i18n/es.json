@@ -4,6 +4,10 @@
     "spanish": "ES"
   },
   "home": {
-    "start": "Inicio"
+    "start": "Inicio",
+    "about": {
+      "title": "¿Qué es el Startup Weekend?",
+      "detail": "Startup Weekend es uno de los programas para emprendedores más grande y reconocido a nivel mundial, donde en 54 horas se reúnen personas de todos los perfiles para convertir sus ideas en negocios innovadores reales."
+    }
   }
 }
