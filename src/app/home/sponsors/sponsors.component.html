@@ -1,7 +1,7 @@
 <div class="container center-align">
   <p class="medium-text main-color">{{'sponsor.sponsors' | translate}}</p>
   <div class="row">
-    <div *ngFor="let sponsor of sponsors | async" class="card-image col s12 m3 sponsor">
+    <div *ngFor="let sponsor of sponsors$ | async" class="card-image col s12 m3 sponsor">
       <a target="_blank" rel="noopener noreferrer" [href]="sponsor.link">
         <img class="sponsors-logo" [src]="sponsor.pictureURL" alt="">
       </a>

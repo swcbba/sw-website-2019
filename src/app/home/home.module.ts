@@ -12,6 +12,7 @@ import {SponsorsComponent} from './sponsors/sponsors.component';
 import {TranslateModule} from '@ngx-translate/core';
 import {LocationComponent} from './location/location.component';
 import {environment} from 'src/environments/environment';
+import {SponsorsService} from './sponsors/sponsors.service';
 
 @NgModule({
   declarations: [
@@ -27,7 +28,7 @@ import {environment} from 'src/environments/environment';
     TranslateModule,
     AgmCoreModule.forRoot(environment.googleMaps)
   ],
-  providers: [EventsService]
+  providers: [EventsService, SponsorsService]
 })
 export class HomeModule {
 }
