@@ -1,17 +1,33 @@
-import { NgModule } from '@angular/core';
-import { CommonModule } from '@angular/common';
+import {NgModule} from '@angular/core';
+import {CommonModule} from '@angular/common';
 
-import { HomeComponent } from './home.component';
-import { BannerComponent } from './banner/banner.component';
-import { EventsComponent } from './events/events.component';
-import { EventsService } from './events/events.service';
-import { SharedModule } from '../shared/shared.module';
+import {AgmCoreModule} from '@agm/core';
+
+import {HomeComponent} from './home.component';
+import {BannerComponent} from './banner/banner.component';
+import {EventsComponent} from './events/events.component';
+import {EventsService} from './events/events.service';
+import {SharedModule} from '../shared/shared.module';
 import {SponsorsComponent} from './sponsors/sponsors.component';
 import {TranslateModule} from '@ngx-translate/core';
+import {LocationComponent} from './location/location.component';
+import {environment} from 'src/environments/environment';
 
 @NgModule({
-  declarations: [HomeComponent, BannerComponent, EventsComponent, SponsorsComponent],
-  imports: [CommonModule, SharedModule, TranslateModule],
+  declarations: [
+    HomeComponent,
+    BannerComponent,
+    EventsComponent,
+    SponsorsComponent,
+    LocationComponent
+  ],
+  imports: [
+    CommonModule,
+    SharedModule,
+    TranslateModule,
+    AgmCoreModule.forRoot(environment.googleMaps)
+  ],
   providers: [EventsService]
 })
-export class HomeModule {}
+export class HomeModule {
+}

@@ -1,4 +1,4 @@
-import { FirebaseConfig } from './keys';
+import { FirebaseConfig, GoogleMapsConfig } from './keys';
 
 // This file can be replaced during build by using the `fileReplacements` array.
 // `ng build --prod` replaces `environment.ts` with `environment.prod.ts`.
@@ -6,7 +6,8 @@ import { FirebaseConfig } from './keys';
 
 export const environment = {
   production: false,
-  firebase: FirebaseConfig
+  firebase: FirebaseConfig,
+  googleMaps: GoogleMapsConfig
 };
 
 /*
