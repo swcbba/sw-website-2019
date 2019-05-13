@@ -1,5 +1,5 @@
 <div class="container center-align">
-  <p class="medium-text main-color">{{'sponsor.sponsors' | translate}}</p>
+  <p class="medium-text main-color">{{ 'sponsor.sponsors' | translate }}</p>
   <div class="row">
     <div *ngFor="let sponsor of sponsors$ | async" class="card-image col s12 m3 sponsor">
       <a target="_blank" rel="noopener noreferrer" [href]="sponsor.link">
@@ -9,6 +9,6 @@
   </div>
   <a target="_blank" rel="noopener noreferrer" [href]=""
      class="btn-large call-to-action waves-effect small-text a_button">
-    {{'sponsor.become_sponsor' | translate}}
+    {{ 'sponsor.become_sponsor' | translate }}
   </a>
 </div>

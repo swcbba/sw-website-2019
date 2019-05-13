@@ -1,7 +1,9 @@
-import {Component, OnInit} from '@angular/core';
-import {Observable} from 'rxjs';
-import {SponsorsService} from './sponsors.service';
-import {Sponsor} from '../../shared/models/sponsor.model';
+import { Component, OnInit } from '@angular/core';
+
+import { Observable } from 'rxjs';
+
+import { SponsorsService } from './sponsors.service';
+import { Sponsor } from '../../shared/models/sponsor.model';
 
 @Component({
   selector: 'sw-sponsors',
@@ -16,5 +18,4 @@ export class SponsorsComponent implements OnInit {
   ngOnInit(): void {
     this.sponsors$ = this.sponsorService.getAll();
   }
-
 }
