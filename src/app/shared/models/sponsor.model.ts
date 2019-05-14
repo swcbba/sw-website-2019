@@ -1,8 +1,8 @@
-import {DataType} from './data-type.model';
+import { DataType } from './data-type.model';
 
 export interface Sponsor extends DataType {
   id: string;
   link: string;
-  pictureURL: string;
-  partner: string;
+  logoUrl: string;
+  name: string;
 }

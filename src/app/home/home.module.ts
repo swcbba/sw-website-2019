@@ -30,5 +30,4 @@ import { SponsorsService } from './sponsors/sponsors.service';
   ],
   providers: [EventsService, SponsorsService]
 })
-export class HomeModule {
-}
+export class HomeModule {}
