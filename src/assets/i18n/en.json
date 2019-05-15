@@ -6,9 +6,10 @@
   "home": {
     "start": "Home"
   },
-  "banner": {
+  "main-event": {
+    "name": "Startup Weekend",
     "slogan": "Do something awesome",
-    "place-and-date": "Cochabamba. 21-23, 2019",
+    "place-and-date": "Cochabamba. 21-23 June, 2019",
     "call-to-action": "Buy ticket"
   },
   "sponsor": {
