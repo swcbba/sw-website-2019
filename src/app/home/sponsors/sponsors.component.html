@@ -1,9 +1,9 @@
 <div class="container section center-align">
   <h1 class="truncate">{{ 'sponsor.sponsors' | translate }}</h1>
   <div class="row">
-    <div *ngFor="let sponsor of sponsors$ | async" class="col s12 m3 sponsor">
+    <div *ngFor="let sponsor of sponsors$ | async" class="col s12 m3 sponsor-item">
       <a class="center-align" target="_blank" rel="noopener noreferrer" [href]="sponsor.link">
-        <img class="sponsor-logo" [src]="sponsor.logoUrl" [alt]="sponsor.name">
+        <img class="sponsor-item-logo" [src]="sponsor.logoUrl" [alt]="sponsor.name">
       </a>
     </div>
   </div>
