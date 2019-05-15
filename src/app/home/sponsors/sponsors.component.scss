@@ -7,18 +7,7 @@
 .sponsors-logo {
   max-width: 80%;
   max-height: 40%;
-
   @media #{$medium-and-up} {
     max-width: 100%;
-  }
-
-  .become-sponsor-button {
-    display: block;
-    width: 115px;
-    height: 25px;
-    padding: 10px;
-    text-align: center;
-    border-radius: 5px;
-    font-weight: bold;
   }
 }
