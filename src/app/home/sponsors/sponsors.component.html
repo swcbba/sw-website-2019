@@ -3,12 +3,12 @@
   <div class="row">
     <div *ngFor="let sponsor of sponsors$ | async" class="card-image col s12 m3 sponsor">
       <a target="_blank" rel="noopener noreferrer" [href]="sponsor.link">
-        <img class="sponsors-logo" [src]="sponsor.logoUrl" alt="">
+        <img class="sponsors-logo" [src]="sponsor.logoUrl" alt="{{sponsor.name}}">
       </a>
     </div>
   </div>
   <a target="_blank" rel="noopener noreferrer" [href]=""
-     class="btn-large call-to-action waves-effect small-text a_button">
+     class="btn-large call-to-action waves-effect small-text become-sponsor-button">
     {{ 'sponsor.become_sponsor' | translate }}
   </a>
 </div>
