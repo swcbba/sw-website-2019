@@ -13,13 +13,13 @@ export class TransparentNavbarDirective {
     const scrollTop = window.scrollY;
     const height = banner.offsetHeight;
     const offset = height / 1.1;
-    const calc = 1 - (scrollTop - offset + range) / range;
+    const bannerOpacity = 1 - (scrollTop - offset + range) / range;
 
-    banner.style.opacity = calc.toString();
+    banner.style.opacity = bannerOpacity.toString();
 
-    if (calc > 1) {
+    if (bannerOpacity > 1) {
       banner.style.opacity = '1';
-    } else if (calc < 0) {
+    } else if (bannerOpacity < 0) {
       banner.style.opacity = '0';
     }
   }
