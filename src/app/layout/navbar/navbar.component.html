@@ -1,29 +1,29 @@
 <header>
-  <div class="navbar-fixed">
-    <nav>
-      <div class="nav-wrapper">
-        <div class="container">
-          <a routerLink="/">SW</a>
-          <a data-target="mobile-menu" class="sidenav-trigger">
-            <i class="material-icons">menu</i>
-          </a>
-          <ul class="right hide-on-med-and-down">
-            <li>
-              <a routerLink="/">{{ 'home.start' | translate }}</a>
-            </li>
-            <li>
-              <sw-language-button></sw-language-button>
-            </li>
-          </ul>
-          <sw-language-button class="language-mobile-align hide-on-large-only"></sw-language-button>
-        </div>
+  <nav class="transparent">
+    <div class="nav-wrapper">
+      <div class="container">
+        <a routerLink="/">SW</a>
+        <a data-target="mobile-menu" class="sidenav-trigger">
+          <i class="fas fa-bars"></i>
+        </a>
+        <ul class="right hide-on-med-and-down">
+          <li>
+            <a routerLink="/">{{ 'home.start' | translate }}</a>
+          </li>
+          <li>
+            <sw-language-button></sw-language-button>
+          </li>
+        </ul>
+        <sw-language-button class="language-mobile-align hide-on-large-only"></sw-language-button>
       </div>
-    </nav>
-  </div>
+    </div>
+  </nav>
 
   <ul swSidenav class="sidenav" id="mobile-menu">
     <li>
       <a routerLink="/" class="sidenav-close">{{ 'home.start' | translate }}</a>
     </li>
   </ul>
+
+  <div id="navbar-background"></div>
 </header>

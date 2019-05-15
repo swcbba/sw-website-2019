@@ -1,3 +1,21 @@
-<div class="parallax-container">
-  <div swParallax class="parallax"><img src="assets/images/home/parallax1.jpg"></div>
+<div swTransparentNavbar class="parallax-container top-section valign-wrapper">
+  <div class="banner-container center-align">
+    <div class="container">
+      <div class="row">
+        <img id="banner-logo" src="assets/images/home/logo.svg" [alt]="'main-event.name' | translate">
+        <h3 class="white-text">{{ 'main-event.slogan' | translate }}</h3>
+        <h6 class="white-text">{{ 'main-event.place-and-date' | translate }}</h6>
+        <br>
+        <a class="btn-large waves-effect">
+          {{ 'main-event.call-to-action' | translate }}
+        </a>
+        <a id="arrow-down" data-aos="fade-up" data-aos-easing="ease">
+          <i class="fas fa-chevron-down fa-2x white-text"></i>
+        </a>
+      </div>
+    </div>
+  </div>
+  <div swParallax class="parallax">
+    <img src="assets/images/home/banner-background.jpg" [alt]="'main-event.name' | translate">
+  </div>
 </div>

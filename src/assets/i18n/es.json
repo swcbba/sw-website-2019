@@ -6,8 +6,14 @@
   "home": {
     "start": "Inicio"
   },
+  "main-event": {
+    "name": "Startup Weekend",
+    "slogan": "Haz algo increíble",
+    "place-and-date": "Cochabamba. 21 - 23 Junio, 2019",
+    "call-to-action": "Comprar entrada"
+  },
   "sponsor": {
     "sponsors": "Patrocinadores",
-    "become_sponsor": "PATROCINAR"
+    "become-sponsor": "Patrocinar"
   }
 }
