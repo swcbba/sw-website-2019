@@ -1,14 +1,16 @@
-@import "../../../styles-mat-variables";
+@import '../../../styles-mat-variables';
 
 .sponsor {
-  margin: 40px;
-}
-
-.sponsors-logo {
-  max-width: 80%;
-  max-height: 40%;
+  height: 130px;
+  padding-top: 30px;
 
   @media #{$medium-and-up} {
+    height: 150px;
+    padding-top: 50px;
+  }
+
+  &-logo {
     max-width: 100%;
+    max-height: 100%;
   }
 }
