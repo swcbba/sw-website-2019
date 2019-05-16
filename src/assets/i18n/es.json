@@ -9,5 +9,9 @@
   "sponsor": {
     "sponsors": "Patrocinadores",
     "become_sponsor": "PATROCINAR"
+  },
+  "event": {
+    "events": "Eventos",
+    "read_more": "Leer Más"
   }
 }
