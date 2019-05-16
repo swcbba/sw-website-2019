@@ -10,7 +10,7 @@
             <span class="card-title activator grey-text text-darken-4">
               {{ event.name }} <i class="material-icons right">more_vert</i>
             </span>
-          <p>{{ event.date.toDate() | date:'mediumDate' }}</p>
+          <p>{{ event.date.toDate() | date : 'mediumDate' }}</p>
           <p>{{ event.place }}</p>
           <p><a [href]="event.link">{{ 'event.read_more' | translate }}</a></p>
         </div>
