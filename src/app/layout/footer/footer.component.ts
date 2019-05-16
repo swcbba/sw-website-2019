@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { NetworkLink  } from './network-link.component';
 
 @Component({
   selector: 'sw-footer',
@@ -7,6 +8,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class FooterComponent implements OnInit {
   currentYear: number;
+  nameLinks = [
+    new NetworkLink("Facebook", "https://es-la.facebook.com/"),
+    new NetworkLink("Twiter", "https://twitter.com/"),
+    new NetworkLink("Instagram", "https://www.instagram.com/")
+  ];
 
   ngOnInit(): void {
     this.currentYear = new Date().getFullYear();
