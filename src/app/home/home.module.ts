@@ -12,6 +12,7 @@ import { EventsComponent } from './events/events.component';
 import { SponsorsComponent } from './sponsors/sponsors.component';
 import { LocationComponent } from './location/location.component';
 import { SponsorsService } from './sponsors/sponsors.service';
+import { ParticipantsComponent } from './participants/participants.component';
 import { EventsService } from './events/events.service';
 
 @NgModule({
@@ -20,7 +21,8 @@ import { EventsService } from './events/events.service';
     BannerComponent,
     EventsComponent,
     SponsorsComponent,
-    LocationComponent
+    LocationComponent,
+    ParticipantsComponent
   ],
   imports: [
     CommonModule,
