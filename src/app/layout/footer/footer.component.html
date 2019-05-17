@@ -9,7 +9,7 @@
       <div class="col l4 offset-l2 s12">
         <h5 class="white-text">Nuestras Redes</h5>
         <ul>
-          <li *ngFor="let name links"><a class="grey-text text-lighten-3" href="{{link}}" target="_blank" rel="noopener noreferrer">{{nameLinks.name}}</a></li>
+          <li *ngFor="let socialLink of nameLinks"><a class="grey-text text-lighten-3" [href]="socialLink.link" target="_blank" rel="noopener noreferrer">{{ socialLink.name }}</a></li>
         </ul>
       </div>
     </div>

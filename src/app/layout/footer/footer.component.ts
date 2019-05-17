@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { NetworkLink  } from './network-link.component';
+import { SocialLink  } from '../../shared/models/social-link.component';
 
 @Component({
   selector: 'sw-footer',
@@ -9,9 +9,9 @@ import { NetworkLink  } from './network-link.component';
 export class FooterComponent implements OnInit {
   currentYear: number;
   nameLinks = [
-    new NetworkLink("Facebook", "https://es-la.facebook.com/"),
-    new NetworkLink("Twiter", "https://twitter.com/"),
-    new NetworkLink("Instagram", "https://www.instagram.com/")
+    new SocialLink('Facebook', 'https://es-la.facebook.com/'),
+    new SocialLink('Twiter', 'https://twitter.com/'),
+    new SocialLink('Instagram', 'https://www.instagram.com/')
   ];
 
   ngOnInit(): void {
