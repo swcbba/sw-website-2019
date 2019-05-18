@@ -1,15 +1,10 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 
 @Component({
   selector: 'sw-participants',
   templateUrl: './participants.component.html',
   styleUrls: ['./participants.component.scss']
 })
-export class ParticipantsComponent implements OnInit {
-
-  constructor() { }
-
-  ngOnInit() {
-  }
+export class ParticipantsComponent {
 
 }

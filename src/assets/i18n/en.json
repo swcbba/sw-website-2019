@@ -15,5 +15,15 @@
   "sponsor": {
     "sponsors": "Sponsors",
     "become-sponsor": "Become a sponsor"
+  },
+  "participants": {
+    "title": "Who can participate?",
+    "developer": "Developer",
+    "enterpreneur": "Enterpreneur",
+    "student": "Student",
+    "designer": "Designer",
+    "finance": "Finance",
+    "marketing": "Marketing",
+    "call-to-action": "Not in the list?"
   }
 }
