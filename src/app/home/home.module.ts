@@ -15,9 +15,7 @@ import { SponsorsComponent } from './sponsors/sponsors.component';
 import { LocationComponent } from './location/location.component';
 import { SponsorsService } from './sponsors/sponsors.service';
 import { EventsService } from './events/events.service';
-import { SharedModule } from '../shared/shared.module';
 import { PartnersComponent } from './partners/partners.component';
-import { environment } from 'src/environments/environment';
 
 @NgModule({
   declarations: [
