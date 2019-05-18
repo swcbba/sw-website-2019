@@ -1,16 +1,13 @@
 import { Injectable } from '@angular/core';
 import { AngularFirestore } from '@angular/fire/firestore'
 
-@Injectable({
-  providedIn: 'root'
-})
-export class PartnerService {
+import { DataService } from '../../shared/models/data-service.model';
+import { Partner } from '../../shared/models/partner.module';
+import { FirestoreCollection } from '../../shared/models/firestore-collection.enum';
 
-  collectionName = 'partners';
-
-  constructor(private database: AngularFirestore) { }
-
-  getPartners(): any {
-    return this.database.collection(this.collectionName).valueChanges();
+@Injectable()
+export class PartnerService extends DataService<Partner> {
+  constructor(db: AngularFirestore) {
+    super(db, FirestoreCollection.partners);
   }
 }
