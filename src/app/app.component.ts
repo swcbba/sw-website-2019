@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
+import * as Aos from 'aos';
+
 import { LanguageService } from './core/services/language.service';
 
 @Component({
@@ -11,6 +13,7 @@ export class AppComponent implements OnInit {
   constructor(private languageService: LanguageService) {}
 
   ngOnInit(): void {
+    Aos.init();
     this.languageService.setDefaultLanguage();
   }
 }
