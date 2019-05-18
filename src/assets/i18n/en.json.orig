@@ -16,6 +16,10 @@
     "sponsors": "Sponsors",
     "become-sponsor": "Become a sponsor"
   },
+<<<<<<< HEAD
+  "partner": {
+    "partners": "Partners"
+=======
   "participants": {
     "title": "Who can participate?",
     "developer": "Developer",
@@ -25,8 +29,6 @@
     "finance": "Finance",
     "marketing": "Marketing",
     "call-to-action": "Not in the list?"
-  },
-  "partner": {
-    "partners": "Partners"
+>>>>>>> 210c2d86e2eab3664f7a65d16ee6d4205f197cd6
   }
 }

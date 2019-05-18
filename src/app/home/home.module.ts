@@ -1,7 +1,5 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { AngularFireModule } from '@angular/fire'
-import { AngularFirestoreModule } from '@angular/fire/firestore'
 
 import { TranslateModule } from '@ngx-translate/core';
 import { AgmCoreModule } from '@agm/core';
@@ -14,6 +12,7 @@ import { EventsComponent } from './events/events.component';
 import { SponsorsComponent } from './sponsors/sponsors.component';
 import { LocationComponent } from './location/location.component';
 import { SponsorsService } from './sponsors/sponsors.service';
+import { ParticipantsComponent } from './participants/participants.component';
 import { EventsService } from './events/events.service';
 import { PartnersComponent } from './partners/partners.component';
 import { PartnerService } from './partners/partner.service';
@@ -24,7 +23,8 @@ import { PartnerService } from './partners/partner.service';
     BannerComponent,
     EventsComponent,
     SponsorsComponent,
-    LocationComponent, 
+    LocationComponent,
+    ParticipantsComponent,
     PartnersComponent
   ],
   imports: [
