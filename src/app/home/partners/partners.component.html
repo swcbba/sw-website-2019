@@ -1,10 +1,11 @@
-<div class="container center-align">
-  <p class="">Our Partners</p>
+<div class="container section center-align">
+  <h3 class="truncate">{{ 'partner.partners' | translate }}</h3>
   <div class="row">
-    <div class="card-image col s12 m3" *ngFor="let partner of partners | async">
-      <a href="//{{partner.link}}">
-        <img class="partner-logo" [src]="partner.logo_link">
+    <div *ngFor="let partner of partners$ | async" class="col s12 m3 partner-item">
+      <a target="_blank" rel="noopener noreferrer" [href]="partner.link">
+        <img class="partner-item-logo" [src]="partner.logoUrl" [alt]="partner.name">
       </a>
     </div>
   </div>
+  <br>
 </div>

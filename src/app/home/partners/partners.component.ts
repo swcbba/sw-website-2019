@@ -2,8 +2,8 @@ import { Component, OnInit } from '@angular/core';
 
 import { Observable } from 'rxjs';
 
-import { PartnerService } from 'src/app/core/services/partner.service';
-import { Partner } from 'src/app/core/model/partner';
+import { PartnerService } from './partner.service';
+import { Partner } from '../../shared/models/partner';
 
 @Component({
   selector: 'sw-partners',
@@ -11,17 +11,12 @@ import { Partner } from 'src/app/core/model/partner';
   styleUrls: ['./partners.component.scss']
 })
 export class PartnersComponent implements OnInit {
+  partners$: Observable<Partner[]>;
 
-  partners = new Observable<Partner[]>();
-  
   constructor(private partnerService: PartnerService) { }
 
-  loadPartners(): void {
-    this.partners = this.partnerService.getPartners()
-  }
-
-  ngOnInit() {
-    this.loadPartners()
+  ngOnInit(): void {
+    this.partners$ = this.partnerService.getPartners()
   }
 
 }

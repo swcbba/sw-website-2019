@@ -15,5 +15,8 @@
   "sponsor": {
     "sponsors": "Patrocinadores",
     "become-sponsor": "Patrocinar"
+  },
+  "partner": {
+    "partners": "Socios"
   }
 }
