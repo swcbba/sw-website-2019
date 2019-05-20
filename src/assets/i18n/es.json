@@ -19,18 +19,18 @@
   "participants": {
     "title": "¿Quienes pueden participar?",
     "developer": "Desarrollador",
-    "enterpreneur": "Emprendedor",
+    "entrepreneur": "Emprendedor",
     "student": "Estudiante",
     "designer": "Diseñador",
     "finance": "Finanzas",
     "marketing": "Marketing",
-    "call-to-action": "¿No estas en la lista?"
+    "call-to-action": "¿No estás en la lista?"
   },  
   "partner": {
     "partners": "Socios"
   },
   "event": {
     "events": "Eventos",
-    "read_more": "Leer Más"
+    "read-more": "Leer Más"
   }
 }

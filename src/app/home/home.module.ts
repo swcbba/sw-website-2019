@@ -11,9 +11,9 @@ import { BannerComponent } from './banner/banner.component';
 import { EventsComponent } from './events/events.component';
 import { SponsorsComponent } from './sponsors/sponsors.component';
 import { LocationComponent } from './location/location.component';
-import { SponsorsService } from './sponsors/sponsors.service';
+import { SponsorService } from './sponsors/sponsor.service';
 import { ParticipantsComponent } from './participants/participants.component';
-import { EventsService } from './events/events.service';
+import { EventService } from './events/event.service';
 import { PartnersComponent } from './partners/partners.component';
 import { PartnerService } from './partners/partner.service';
 
@@ -33,6 +33,6 @@ import { PartnerService } from './partners/partner.service';
     TranslateModule,
     AgmCoreModule.forRoot(environment.googleMaps)
   ],
-  providers: [EventsService, SponsorsService, PartnerService]
+  providers: [EventService, SponsorService, PartnerService]
 })
 export class HomeModule {}

@@ -19,7 +19,7 @@
   "participants": {
     "title": "Who can participate?",
     "developer": "Developer",
-    "enterpreneur": "Enterpreneur",
+    "entrepreneur": "Entrepreneur",
     "student": "Student",
     "designer": "Designer",
     "finance": "Finance",
@@ -31,6 +31,6 @@
   },
   "event": {
     "events": "Events",
-    "read_more": "Read more"
+    "read-more": "Read more"
   }
 }

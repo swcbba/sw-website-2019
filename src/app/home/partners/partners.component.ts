@@ -13,10 +13,9 @@ import { Partner } from '../../shared/models/partner.module';
 export class PartnersComponent implements OnInit {
   partners$: Observable<Partner[]>;
 
-  constructor(private partnerService: PartnerService) { }
+  constructor(private partnerService: PartnerService) {}
 
   ngOnInit(): void {
     this.partners$ = this.partnerService.getAll();
   }
-
 }
