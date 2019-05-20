@@ -26,6 +26,9 @@
     "marketing": "Marketing",
     "call-to-action": "Not in the list?"
   },
+  "partner": {
+    "partners": "Partners"
+  },
   "event": {
     "events": "Events",
     "read_more": "Read more"

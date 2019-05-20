@@ -25,6 +25,9 @@
     "finance": "Finanzas",
     "marketing": "Marketing",
     "call-to-action": "¿No estas en la lista?"
+  },  
+  "partner": {
+    "partners": "Socios"
   },
   "event": {
     "events": "Eventos",

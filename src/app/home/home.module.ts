@@ -14,6 +14,8 @@ import { LocationComponent } from './location/location.component';
 import { SponsorsService } from './sponsors/sponsors.service';
 import { ParticipantsComponent } from './participants/participants.component';
 import { EventsService } from './events/events.service';
+import { PartnersComponent } from './partners/partners.component';
+import { PartnerService } from './partners/partner.service';
 
 @NgModule({
   declarations: [
@@ -22,7 +24,8 @@ import { EventsService } from './events/events.service';
     EventsComponent,
     SponsorsComponent,
     LocationComponent,
-    ParticipantsComponent
+    ParticipantsComponent,
+    PartnersComponent
   ],
   imports: [
     CommonModule,
@@ -30,6 +33,6 @@ import { EventsService } from './events/events.service';
     TranslateModule,
     AgmCoreModule.forRoot(environment.googleMaps)
   ],
-  providers: [EventsService, SponsorsService]
+  providers: [EventsService, SponsorsService, PartnerService]
 })
 export class HomeModule {}
