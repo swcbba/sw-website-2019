@@ -4,14 +4,14 @@
 nav {
   position: fixed;
   top: 0;
-  z-index: 1000;
+  z-index: 998;
   box-shadow: none;
 }
 
 #navbar-background {
   position: fixed;
   top: 0;
-  z-index: 998;
+  z-index: 996;
   width: 100%;
   height: 56px;
   background-color: $primary-color;
@@ -20,10 +20,6 @@ nav {
   @media #{$medium-and-up} {
     height: 64px;
   }
-}
-
-.sidenav {
-  z-index: 1001;
 }
 
 .language-mobile-align {
