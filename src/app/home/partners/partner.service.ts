@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import { AngularFirestore } from '@angular/fire/firestore'
+import { AngularFirestore } from '@angular/fire/firestore';
 
 import { DataService } from '../../shared/models/data-service.model';
 import { Partner } from '../../shared/models/partner.module';

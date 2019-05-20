@@ -16,7 +16,7 @@ export class PartnersComponent implements OnInit {
   constructor(private partnerService: PartnerService) { }
 
   ngOnInit(): void {
-    this.partners$ = this.partnerService.getAll()
+    this.partners$ = this.partnerService.getAll();
   }
 
 }
