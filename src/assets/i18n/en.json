@@ -28,5 +28,9 @@
   },
   "partner": {
     "partners": "Partners"
+  },
+  "event": {
+    "events": "Events",
+    "read_more": "Read more"
   }
 }
