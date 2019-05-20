@@ -4,17 +4,44 @@
     "spanish": "ES"
   },
   "home": {
-    "start": "Home",
-    "about": {
-      "title": "What is Startup Weekend?",
-      "detail": "Startup Weekend is one of the largest and most recognized programs for entrepreneurs worldwide, where in 54 hours people of all profiles meet to turn their ideas into real innovative businesses."
-    },
-    "metrics": {
-      "title": "Impact in Cochabamba",
-      "versions": "Versions",
-      "participants": "Participants",
-      "projects": "Projects",
-      "ideas": "Ideas"
-    }
+    "start": "Home"
+  },
+  "main-event": {
+    "name": "Startup Weekend",
+    "slogan": "Do something awesome",
+    "place-and-date": "Cochabamba. 21-23 June, 2019",
+    "call-to-action": "Buy ticket"
+  },
+  "sponsor": {
+    "sponsors": "Sponsors",
+    "become-sponsor": "Become a sponsor"
+  },
+  "participants": {
+    "title": "Who can participate?",
+    "developer": "Developer",
+    "entrepreneur": "Entrepreneur",
+    "student": "Student",
+    "designer": "Designer",
+    "finance": "Finance",
+    "marketing": "Marketing",
+    "call-to-action": "Not in the list?"
+  },
+  "partner": {
+    "partners": "Partners"
+  },
+  "event": {
+    "events": "Events",
+    "read-more": "Read more"
+  },
+  "about": {
+    "title": "What is Startup Weekend?",
+    "detail": "Startup Weekend is one of the largest and most recognized programs for entrepreneurs worldwide, where in 54 hours people of all profiles meet to turn their ideas into real innovative businesses."
+  },
+  "metrics": {
+    "title": "Impact in Cochabamba",
+    "versions": "Versions",
+    "participants": "Participants",
+    "projects": "Projects",
+    "ideas": "Ideas"
   }
 }

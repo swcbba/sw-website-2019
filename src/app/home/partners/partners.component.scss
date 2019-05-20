@@ -1,0 +1,16 @@
+@import '../../../styles-mat-variables';
+
+.partner-item {
+  height: 130px;
+  padding-top: 30px;
+
+  @media #{$medium-and-up} {
+    height: 150px;
+    padding-top: 50px;
+  }
+
+  &-logo {
+    max-width: 100%;
+    max-height: 100%;
+  }
+}

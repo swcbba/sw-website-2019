@@ -1,5 +1,28 @@
-<div class="container">
-  <p>
-    events works!
-  </p>
+<div class="container section center-align">
+  <div class="row">
+    <h3 class="truncate">{{ 'event.events' | translate }}</h3>
+    <div *ngFor="let event of events$ | async" class="col s12 m4">
+      <div class="card">
+        <div class="card-image waves-effect waves-block waves-light">
+          <img class="activator" [src]="event.logoUrl" [alt]="event.name">
+        </div>
+        <div class="card-content">
+          <span class="card-title activator grey-text text-darken-4">
+            {{ event.name }}
+            <i class="fas fa-angle-up right"></i>
+          </span>
+          <p>{{ event.date.toDate() | date : 'mediumDate' : undefined : languageService.currentLanguage }}</p>
+          <p>{{ event.place }}</p>
+          <a [href]="event.link" target="_blank" rel="noopener noreferrer">{{ 'event.read-more' | translate }}</a>
+        </div>
+        <div class="card-reveal">
+          <span class="card-title grey-text text-darken-4">
+            {{ event.name }}
+            <i class="fas fa-angle-down right"></i>
+          </span>
+          <p>{{ event.description }}</p>
+        </div>
+      </div>
+    </div>
+  </div>
 </div>
