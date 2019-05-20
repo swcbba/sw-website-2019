@@ -25,5 +25,9 @@
     "finance": "Finanzas",
     "marketing": "Marketing",
     "call-to-action": "¿No estas en la lista?"
+  },
+  "event": {
+    "events": "Eventos",
+    "read_more": "Leer Más"
   }
 }
