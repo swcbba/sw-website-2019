@@ -2,7 +2,7 @@ import { Component, OnInit } from '@angular/core';
 
 import { Observable } from 'rxjs';
 
-import {LanguageService} from '../../core/services/language.service';
+import { LanguageService } from '../../core/services/language.service';
 import { EventsService } from './events.service';
 import { Event } from '../../shared/models/event.model';
 
