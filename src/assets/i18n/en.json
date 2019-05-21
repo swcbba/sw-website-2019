@@ -4,7 +4,10 @@
     "spanish": "ES"
   },
   "home": {
-    "start": "Home"
+    "start": "Home",
+    "events": "Events",
+    "partners": "Partners",
+    "location": "Location"
   },
   "main-event": {
     "name": "Startup Weekend",
