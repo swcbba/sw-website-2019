@@ -16,6 +16,7 @@ import { ParticipantsComponent } from './participants/participants.component';
 import { EventService } from './events/event.service';
 import { PartnersComponent } from './partners/partners.component';
 import { PartnerService } from './partners/partner.service';
+import { AboutComponent } from './about/about.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +26,8 @@ import { PartnerService } from './partners/partner.service';
     SponsorsComponent,
     LocationComponent,
     ParticipantsComponent,
-    PartnersComponent
+    PartnersComponent,
+    AboutComponent
   ],
   imports: [
     CommonModule,
