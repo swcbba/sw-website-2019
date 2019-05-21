@@ -16,6 +16,7 @@ import { ParticipantsComponent } from './participants/participants.component';
 import { EventService } from './events/event.service';
 import { PartnersComponent } from './partners/partners.component';
 import { PartnerService } from './partners/partner.service';
+import { AboutComponent } from './about/about.component';
 import { ScrollSpyDirective } from './scroll-spy.directive';
 
 @NgModule({
@@ -27,6 +28,7 @@ import { ScrollSpyDirective } from './scroll-spy.directive';
     LocationComponent,
     ParticipantsComponent,
     PartnersComponent,
+    AboutComponent,
     ScrollSpyDirective
   ],
   imports: [
