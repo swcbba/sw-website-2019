@@ -11,9 +11,12 @@ import { BannerComponent } from './banner/banner.component';
 import { EventsComponent } from './events/events.component';
 import { SponsorsComponent } from './sponsors/sponsors.component';
 import { LocationComponent } from './location/location.component';
-import { SponsorsService } from './sponsors/sponsors.service';
+import { SponsorService } from './sponsors/sponsor.service';
 import { ParticipantsComponent } from './participants/participants.component';
-import { EventsService } from './events/events.service';
+import { EventService } from './events/event.service';
+import { PartnersComponent } from './partners/partners.component';
+import { PartnerService } from './partners/partner.service';
+import { AboutComponent } from './about/about.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +25,9 @@ import { EventsService } from './events/events.service';
     EventsComponent,
     SponsorsComponent,
     LocationComponent,
-    ParticipantsComponent
+    ParticipantsComponent,
+    PartnersComponent,
+    AboutComponent
   ],
   imports: [
     CommonModule,
@@ -30,6 +35,6 @@ import { EventsService } from './events/events.service';
     TranslateModule,
     AgmCoreModule.forRoot(environment.googleMaps)
   ],
-  providers: [EventsService, SponsorsService]
+  providers: [EventService, SponsorService, PartnerService]
 })
 export class HomeModule {}

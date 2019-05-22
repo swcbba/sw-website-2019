@@ -2,7 +2,7 @@ import { Component, OnInit } from '@angular/core';
 
 import { Observable } from 'rxjs';
 
-import { SponsorsService } from './sponsors.service';
+import { SponsorService } from './sponsor.service';
 import { Sponsor } from '../../shared/models/sponsor.model';
 
 @Component({
@@ -13,7 +13,7 @@ import { Sponsor } from '../../shared/models/sponsor.model';
 export class SponsorsComponent implements OnInit {
   sponsors$: Observable<Sponsor[]>;
 
-  constructor(private sponsorService: SponsorsService) {}
+  constructor(private sponsorService: SponsorService) {}
 
   ngOnInit(): void {
     this.sponsors$ = this.sponsorService.getAll();
