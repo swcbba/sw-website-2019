@@ -1,3 +1,16 @@
-<p>
-  metrics works!
-</p>
+<!-- <div class="parallax-container banner-opacity valign-wrapper ">
+  <div class="banner-container center-align"> -->
+    <div class="container">
+      <div class="row">
+        <div *ngFor="let metric of metrics$ | async" class="col s3 center-align" data-aos="zoom-in" data-aos-duration="1000">
+          <i [class]="'fas ' + metric.icon + ' fa-7x'"></i>
+          <h5>{{ metric.number }}</h5>
+          <h6>{{ metric.name }}</h6>
+        </div>
+      </div>
+    </div>
+  <!-- </div>
+  <div lmrParallax class="parallax">
+    <img src="assets/images/home/metrics-unsplash.jpg" alt="La Manzana Roja">
+  </div>
+</div> -->
