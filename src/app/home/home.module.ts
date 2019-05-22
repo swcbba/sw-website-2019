@@ -18,6 +18,7 @@ import { PartnersComponent } from './partners/partners.component';
 import { PartnerService } from './partners/partner.service';
 import { AboutComponent } from './about/about.component';
 import { ScrollSpyDirective } from './scroll-spy.directive';
+import { TestimonialsComponent } from './testimonials/testimonials.component';
 
 @NgModule({
   declarations: [
@@ -29,7 +30,8 @@ import { ScrollSpyDirective } from './scroll-spy.directive';
     ParticipantsComponent,
     PartnersComponent,
     AboutComponent,
-    ScrollSpyDirective
+    ScrollSpyDirective,
+    TestimonialsComponent
   ],
   imports: [
     CommonModule,
