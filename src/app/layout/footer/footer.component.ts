@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 
-import { SocialLink  } from '../../shared/models/social-link.model';
+import { SocialLink } from '../../shared/models/social-link.model';
 
 @Component({
   selector: 'sw-footer',
@@ -14,10 +14,8 @@ export class FooterComponent implements OnInit {
     new SocialLink('Twiter', 'https://twitter.com/'),
     new SocialLink('Instagram', 'https://www.instagram.com/')
   ];
-  description: string;
 
   ngOnInit(): void {
     this.currentYear = new Date().getFullYear();
-    this.description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
   }
 }

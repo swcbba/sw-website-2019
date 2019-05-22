@@ -25,5 +25,10 @@
     "finance": "Finanzas",
     "marketing": "Marketing",
     "call-to-action": "¿No estas en la lista?"
+  },
+  "footer": {
+    "title": "Startup Weekend Cochabamba",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "social-title": "Nuestras redes"
   }
 }
