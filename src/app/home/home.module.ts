@@ -13,6 +13,7 @@ import { SponsorsComponent } from './sponsors/sponsors.component';
 import { LocationComponent } from './location/location.component';
 import { SponsorsService } from './sponsors/sponsors.service';
 import { EventsService } from './events/events.service';
+import { MetricsComponent } from './metrics/metrics.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { EventsService } from './events/events.service';
     BannerComponent,
     EventsComponent,
     SponsorsComponent,
-    LocationComponent
+    LocationComponent,
+    MetricsComponent
   ],
   imports: [
     CommonModule,
