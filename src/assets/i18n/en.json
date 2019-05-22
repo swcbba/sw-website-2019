@@ -4,7 +4,10 @@
     "spanish": "ES"
   },
   "home": {
-    "start": "Home"
+    "start": "Home",
+    "events": "Events",
+    "partners": "Partners",
+    "location": "Location"
   },
   "main-event": {
     "name": "Startup Weekend",
@@ -15,5 +18,31 @@
   "sponsor": {
     "sponsors": "Sponsors",
     "become-sponsor": "Become a sponsor"
+  },
+  "participants": {
+    "title": "Who can participate?",
+    "developer": "Developer",
+    "entrepreneur": "Entrepreneur",
+    "student": "Student",
+    "designer": "Designer",
+    "finance": "Finance",
+    "marketing": "Marketing",
+    "call-to-action": "Not in the list?"
+  },
+  "footer": {
+    "title": "Startup Weekend Cochabamba",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "social-title": "Our social networks"
+  },
+  "partner": {
+    "partners": "Partners"
+  },
+  "event": {
+    "events": "Events",
+    "read-more": "Read more"
+  },
+  "about": {
+    "title": "What is Startup Weekend?",
+    "detail": "Startup Weekend is one of the largest and most recognized programs for entrepreneurs worldwide, where in 54 hours people of all profiles meet to turn their ideas into real innovative businesses."
   }
 }

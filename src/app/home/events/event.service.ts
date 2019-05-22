@@ -2,12 +2,12 @@ import { Injectable } from '@angular/core';
 import { AngularFirestore } from '@angular/fire/firestore';
 
 import { DataService } from '../../shared/models/data-service.model';
-import { Sponsor } from '../../shared/models/sponsor.model';
+import { Event } from '../../shared/models/event.model';
 import { FirestoreCollection } from '../../shared/models/firestore-collection.enum';
 
 @Injectable()
-export class SponsorsService extends DataService<Sponsor> {
+export class EventService extends DataService<Event> {
   constructor(db: AngularFirestore) {
-    super(db, FirestoreCollection.sponsors);
+    super(db, FirestoreCollection.events);
   }
 }
