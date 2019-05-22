@@ -17,7 +17,7 @@
     "become-sponsor": "Patrocinar"
   },
   "participants": {
-    "title": "¿Quienes pueden participar?",
+    "title": "¿Quiénes pueden participar?",
     "developer": "Desarrollador",
     "entrepreneur": "Emprendedor",
     "student": "Estudiante",
@@ -25,7 +25,12 @@
     "finance": "Finanzas",
     "marketing": "Marketing",
     "call-to-action": "¿No estás en la lista?"
-  },  
+  },
+  "footer": {
+    "title": "Startup Weekend Cochabamba",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "social-title": "Nuestras redes"
+  },
   "partner": {
     "partners": "Socios"
   },

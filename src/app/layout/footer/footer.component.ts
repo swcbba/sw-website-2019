@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 
-import { SocialLink  } from '../../shared/models/social-link.model';
+import { SocialLink } from '../../shared/models/social-link.model';
 
 @Component({
   selector: 'sw-footer',
