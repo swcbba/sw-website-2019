@@ -3,7 +3,7 @@ import { Component, OnInit } from '@angular/core';
 import { Observable } from 'rxjs';
 
 import { PartnerService } from './partner.service';
-import { Partner } from '../../shared/models/partner.module';
+import { Partner } from '../../shared/models/partner.model';
 
 @Component({
   selector: 'sw-partners',
