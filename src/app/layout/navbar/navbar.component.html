@@ -2,14 +2,15 @@
   <nav class="transparent">
     <div class="nav-wrapper">
       <div class="container">
-        <a routerLink="/">SW</a>
+        <a href="#about">SW</a>
         <a data-target="mobile-menu" class="sidenav-trigger">
           <i class="fas fa-bars"></i>
         </a>
         <ul class="right hide-on-med-and-down">
-          <li>
-            <a routerLink="/">{{ 'home.start' | translate }}</a>
-          </li>
+          <li><a href="#banner">{{ 'home.start' | translate }}</a></li>
+          <li><a href="#events">{{ 'home.events' | translate }}</a></li>
+          <li><a href="#partners">{{ 'home.partners' | translate }}</a></li>
+          <li><a href="#location">{{ 'home.location' | translate }}</a></li>
           <li>
             <sw-language-button></sw-language-button>
           </li>
@@ -20,9 +21,10 @@
   </nav>
 
   <ul swSidenav class="sidenav" id="mobile-menu">
-    <li>
-      <a routerLink="/" class="sidenav-close">{{ 'home.start' | translate }}</a>
-    </li>
+    <li><a href="#banner">{{ 'home.start' | translate }}</a></li>
+    <li><a href="#events">{{ 'home.events' | translate }}</a></li>
+    <li><a href="#partners">{{ 'home.partners' | translate }}</a></li>
+    <li><a href="#location">{{ 'home.location' | translate }}</a></li>
   </ul>
 
   <div id="navbar-background"></div>
