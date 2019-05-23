@@ -18,6 +18,8 @@ import { PartnersComponent } from './partners/partners.component';
 import { PartnerService } from './partners/partner.service';
 import { AboutComponent } from './about/about.component';
 import { ScrollSpyDirective } from './scroll-spy.directive';
+import { MetricsComponent } from './metrics/metrics.component';
+import { MetricsService } from './metrics/metrics.service';
 
 @NgModule({
   declarations: [
@@ -29,7 +31,8 @@ import { ScrollSpyDirective } from './scroll-spy.directive';
     ParticipantsComponent,
     PartnersComponent,
     AboutComponent,
-    ScrollSpyDirective
+    ScrollSpyDirective,
+    MetricsComponent
   ],
   imports: [
     CommonModule,
@@ -37,6 +40,6 @@ import { ScrollSpyDirective } from './scroll-spy.directive';
     TranslateModule,
     AgmCoreModule.forRoot(environment.googleMaps)
   ],
-  providers: [EventService, SponsorService, PartnerService]
+  providers: [EventService, SponsorService, PartnerService, MetricsService]
 })
 export class HomeModule {}

@@ -1,5 +1,6 @@
 export enum FirestoreCollection {
   events = 'events',
   sponsors = 'sponsors',
-  partners = 'partners'
+  partners = 'partners',
+  metrics = 'metrics'
 }
