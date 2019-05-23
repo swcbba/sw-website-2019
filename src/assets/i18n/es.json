@@ -50,6 +50,7 @@
     "days": "Dias",
     "hours": "Horas",
     "minutes": "Minutos",
-    "seconds": "Segundos"
+    "seconds": "Segundos",
+    "event-started": "El evento ya empezo"
   }
 }
