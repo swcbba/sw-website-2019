@@ -1,8 +1,16 @@
 @import '../../../styles-colors';
 @import '../../../styles-mat-variables';
 
+.row .col {
+  margin-top: 4%;
+}
+
 @media #{$medium-and-down} {
   .row .col {
     margin-top: 7%;
   }
+}
+
+.metrics-icon {
+  color: $primary-color;
 }
