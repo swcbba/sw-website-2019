@@ -1,3 +1,8 @@
-.banner-container {
-  width: 100%;
+@import '../../../styles-colors';
+@import '../../../styles-mat-variables';
+
+@media #{$medium-and-down} {
+  .row .col {
+    margin-top: 7%;
+  }
 }
