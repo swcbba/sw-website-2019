@@ -1,0 +1,81 @@
+<div *ngIf="!isFinishDate" class="hide-on-small-only">
+  <div class="row container">
+    <div class="col s12 center-align">
+      <h2 id="countdown-title" class="medium-text"> {{'countdown.title' | translate}} </h2>
+    </div>
+  </div>
+  <div class="row container">
+    <div class="col s3">
+      <div class="card">
+        <div class="card-image waves-effect waves-block waves-light">
+          <p class="medium-text center-align"> {{daysRemaining | appNumberTransform}} </p>
+        </div>
+        <div class="card-content">
+          <span class="card-title activator white-text text-darken-4 center-align truncate">{{'countdown.days' |
+            translate}}</span>
+        </div>
+      </div>
+    </div>
+    <div class="col s3">
+      <div class="card">
+        <div class="card-image waves-effect waves-block waves-light">
+          <p class="medium-text center-align"> {{hoursRemaining | appNumberTransform}} </p>
+        </div>
+        <div class="card-content">
+          <span class="card-title activator white-text text-darken-4 center-align truncate">{{'countdown.hours' |
+            translate}}</span>
+        </div>
+      </div>
+    </div>
+    <div class="col s3">
+      <div class="card">
+        <div class="card-image waves-effect waves-block waves-light">
+          <p class="medium-text center-align"> {{minutesRemaining | appNumberTransform}} </p>
+        </div>
+        <div class="card-content">
+          <span class="card-title activator white-text text-darken-4 center-align truncate">{{'countdown.minutes' |
+            translate}}</span>
+        </div>
+      </div>
+    </div>
+    <div class="col s3">
+      <div class="card">
+        <div class="card-image waves-effect waves-block waves-light">
+          <p class="medium-text center-align"> {{secondsRemaining | appNumberTransform}} </p>
+        </div>
+        <div class="card-content">
+          <span class="card-title activator white-text text-darken-4 center-align truncate">{{'countdown.seconds' |
+            translate}}</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div *ngIf="!isFinishDate" class="row container show-on-small hide-on-med-and-up">
+  <div class="row container">
+    <div class="col s12 center-align">
+      <h5 class="text-bold count-title-mobile main-color"> {{'countdown.title' | translate}} </h5>
+    </div>
+  </div>
+  <div class="col s12">
+    <div class="card">
+      <div class="card-image waves-effect waves-block waves-light">
+        <p class="number-style-mobile center-align"> <span class="text-bold">{{'countdown.days' | translate}}: </span>
+          {{daysRemaining | appNumberTransform}} | <span class="text-bold"> {{'countdown.hours' | translate}}: </span>
+          {{hoursRemaining | appNumberTransform}} | <span class="text-bold"> {{'countdown.minutes' | translate}}:
+          </span>
+          {{minutesRemaining | appNumberTransform}} | <span class="text-bold"> {{'countdown.seconds' | translate}}:
+          </span> {{secondsRemaining | appNumberTransform}} </p>
+      </div>
+    </div>
+  </div>
+</div>
+<div *ngIf="isFinishDate">
+  <div class="container">
+    <div class="row">
+        <div class="col s12 center-align event-started">
+          <h2 id="countdown-title" class="medium-text"> ¡El evento ya ha dado inicio! </h2>
+        </div>
+    </div>
+  </div>
+</div>

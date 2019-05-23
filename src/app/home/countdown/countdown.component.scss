@@ -1,0 +1,64 @@
+#countdown-title {
+  color: #64b5f6;
+}
+
+.card-content {
+  background: #64b5f6;
+}
+
+.title-font {
+  font-size: 20px;
+}
+
+.medium-text {
+  font-size: 25px;
+}
+
+.number-style-mobile {
+  font-size: 20px;
+
+  @media screen and (max-width: 415px) {
+    font-size: 13px !important;
+  }
+
+  @media screen and (max-width: 380px) {
+    font-size: 12px !important;
+  }
+
+  @media screen and (max-width: 330px) {
+    font-size: 10px !important;
+  }
+}
+
+.text-bold {
+  font-weight: bold;
+}
+
+.card-title {
+  @media screen and (max-width: 415px) {
+    font-size: 20px !important;
+  }
+
+  @media screen and (max-width: 380px) {
+    font-size: 15px !important;
+  }
+
+  @media screen and (max-width: 330px) {
+    font-size: 10px !important;
+  }
+}
+
+.count-title-mobile {
+  @media screen and (max-width: 360px) {
+    font-size: 20px !important;
+  }
+
+  @media screen and (max-width: 320px) {
+    font-size: 18px !important;
+  }
+}
+
+.event-started {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
