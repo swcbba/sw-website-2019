@@ -3,8 +3,8 @@ import { Component, OnInit } from '@angular/core';
 import { Observable } from 'rxjs';
 
 import { MetricsService } from './metrics.service';
-import { Metric } from 'src/app/shared/models/metric';
-import { LanguageService } from 'src/app/core/services/language.service';
+import { Metric } from '../../shared/models/metric';
+import { LanguageService } from '../../core/services/language.service';
 
 @Component({
   selector: 'sw-metrics',
