@@ -10,26 +10,26 @@ import * as moment from 'moment';
 export class CountDownComponent implements OnInit {
   @Input()
   date: string;
-  finishDate: any;
+  eventDate: any;
   daysRemaining: number;
   hoursRemaining: number;
   minutesRemaining: number;
   secondsRemaining: number;
-  isFinishDate: boolean;
+  eventAlreadyStarted: boolean;
 
   constructor() {
-    this.isFinishDate = false;
+    this.eventAlreadyStarted = false;
   }
 
   ngOnInit(): void {
-    this.finishDate = moment(this.date, 'DD-MM-YYYY HH:mm');
+    this.eventDate = moment(this.date, 'DD-MM-YYYY HH:mm');
     setInterval(() => {
       const today = moment();
-      this.daysRemaining = this.finishDate.diff(today, 'days') % 365;
-      this.hoursRemaining = this.finishDate.diff(today, 'hours') % 24;
-      this.minutesRemaining = this.finishDate.diff(today, 'minutes') % 60;
-      this.secondsRemaining = this.finishDate.diff(today, 'seconds') % 60;
-      this.isFinishDate = this.finishDate.isSameOrBefore(today);
+      this.daysRemaining = this.eventDate.diff(today, 'days') % 365;
+      this.hoursRemaining = this.eventDate.diff(today, 'hours') % 24;
+      this.minutesRemaining = this.eventDate.diff(today, 'minutes') % 60;
+      this.secondsRemaining = this.eventDate.diff(today, 'seconds') % 60;
+      this.eventAlreadyStarted = this.eventDate.isSameOrBefore(today);
     }, 1000);
   }
 }

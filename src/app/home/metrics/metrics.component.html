@@ -1,0 +1,10 @@
+<div class="container section center-align">
+  <h3 class="truncate">{{ 'metrics.title' | translate }}</h3>
+  <div class="row">
+    <div *ngFor="let metric of metrics$ | async" class="col s12 m6 l3 center-align">
+      <i [class]="'fas ' + metric.icon + ' fa-7x metrics-icon'"></i>
+      <h5>{{ metric.number }}</h5>
+      <h6>{{ languageService.currentLanguage === 'es' ? metric.nameSp : metric.nameEn }}</h6>
+    </div>
+  </div>
+</div>

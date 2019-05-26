@@ -1,9 +1,9 @@
 import { Pipe, PipeTransform } from '@angular/core';
 
 @Pipe({
-  name: 'appNumberTransform'
+  name: 'twoDigitsTransform'
 })
-export class NumberTransformPipe implements PipeTransform {
+export class TwoDigitsTransformPipe implements PipeTransform {
   transform(value: number): string {
     if (typeof value !== 'undefined') {
       if (value < 10) {
