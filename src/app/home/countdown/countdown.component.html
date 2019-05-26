@@ -7,8 +7,8 @@
   <div class="row container">
     <div class="col s3">
       <div class="card">
-        <div>
-          <p class="card-text center-align">{{ daysRemaining | twoDigitsTransform }}</p>
+        <div class="center-align  section">
+          <h4>{{ daysRemaining | twoDigitsTransform }}</h4>
         </div>
         <div class="card-content center-align">
           <span class="white-text">{{ 'countdown.days' | translate }}</span>
@@ -17,8 +17,8 @@
     </div>
     <div class="col s3">
       <div class="card">
-        <div>
-          <p class="card-text center-align">{{ hoursRemaining | twoDigitsTransform }}</p>
+        <div class="center-align section">
+          <h4>{{ hoursRemaining | twoDigitsTransform }}</h4>
         </div>
         <div class="card-content center-align">
           <span class="white-text">{{ 'countdown.hours' | translate }}</span>
@@ -27,8 +27,8 @@
     </div>
     <div class="col s3">
       <div class="card">
-        <div>
-          <p class="card-text center-align">{{ minutesRemaining | twoDigitsTransform }}</p>
+        <div class="center-align section">
+          <h4>{{ minutesRemaining | twoDigitsTransform }}</h4>
         </div>
         <div class="card-content center-align">
           <span class="white-text">{{ 'countdown.minutes' | translate }}</span>
@@ -37,8 +37,8 @@
     </div>
     <div class="col s3">
       <div class="card">
-        <div>
-          <p class="medium-text center-align">{{ secondsRemaining | twoDigitsTransform }}</p>
+        <div class="center-align section">
+          <h4>{{ secondsRemaining | twoDigitsTransform }}</h4>
         </div>
         <div class="card-content center-align">
           <span class="white-text">{{ 'countdown.seconds' | translate }}</span>
