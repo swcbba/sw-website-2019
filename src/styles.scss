@@ -33,9 +33,15 @@ a {
   z-index: 997;
 }
 
+h3.section-title {
+  @media #{$small-and-down} {
+    font-size: $h4-fontsize;
+  }
+}
+
 .parallax-container {
   height: calc(100vh - 56px);
-  min-height: 568px;
+  min-height: $small-screen;
 
   @media #{$medium-and-up} {
     height: calc(100vh - 64px);

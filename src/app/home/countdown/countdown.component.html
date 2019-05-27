@@ -1,6 +1,6 @@
 <div class="container section center-align">
   <ng-container *ngIf="!eventAlreadyStarted">
-    <h3 class="truncate">{{ 'countdown.title' | translate}}:</h3>
+    <h3 class="section-title">{{ 'countdown.title' | translate}}:</h3>
     <div class="hide-on-small-only">
       <div class="row">
         <div class="col s3">
@@ -60,6 +60,6 @@
     </div>
   </ng-container>
   <ng-container *ngIf="eventAlreadyStarted">
-    <h3 class="truncate">{{ 'countdown.event-started' | translate }}</h3>
+    <h3 class="section-title">{{ 'countdown.event-started' | translate }}</h3>
   </ng-container>
 </div>

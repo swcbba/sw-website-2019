@@ -1,5 +1,5 @@
 <div class="container section center-align">
-  <h3 class="truncate">{{ 'partner.partners' | translate }}</h3>
+  <h3 class="section-title">{{ 'partner.partners' | translate }}</h3>
   <div class="row">
     <div *ngFor="let partner of partners$ | async" class="col s12 m3 partner-item">
       <a target="_blank" rel="noopener noreferrer" [href]="partner.link">
