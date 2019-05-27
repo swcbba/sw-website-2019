@@ -45,6 +45,14 @@
     "title": "¿Qué es el Startup Weekend?",
     "detail": "Startup Weekend es uno de los programas para emprendedores más grande y reconocido a nivel mundial, donde en 54 horas se reúnen personas de todos los perfiles para convertir sus ideas en negocios innovadores reales."
   },
+  "countdown": {
+    "title": "El evento empieza en",
+    "days": "Días",
+    "hours": "Horas",
+    "minutes": "Minutos",
+    "seconds": "Segundos",
+    "event-started": "El evento ya ha dado inicio"
+  },
   "metrics": {
     "title": "Impacto en Cochabamba"
   }

@@ -18,6 +18,7 @@ import { PartnersComponent } from './partners/partners.component';
 import { PartnerService } from './partners/partner.service';
 import { AboutComponent } from './about/about.component';
 import { ScrollSpyDirective } from './scroll-spy.directive';
+import { CountDownComponent } from './countdown/countdown.component';
 import { MetricsComponent } from './metrics/metrics.component';
 import { MetricsService } from './metrics/metrics.service';
 
@@ -32,6 +33,7 @@ import { MetricsService } from './metrics/metrics.service';
     PartnersComponent,
     AboutComponent,
     ScrollSpyDirective,
+    CountDownComponent,
     MetricsComponent
   ],
   imports: [

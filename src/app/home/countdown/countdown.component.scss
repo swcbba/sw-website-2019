@@ -1,0 +1,10 @@
+@import '../../../styles-colors.scss';
+@import '../../../styles-mat-variables.scss';
+
+#countdown-title {
+  color: $primary-color;;
+}
+
+.card-content {
+  background: $primary-color;
+}
