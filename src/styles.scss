@@ -7,6 +7,7 @@
 
 body {
   font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
 }
 
 sw-root {
@@ -34,14 +35,23 @@ a {
 }
 
 h3.section-title {
+  color: $primary-color-dark;
+  font-weight: bold;
+
   @media #{$small-and-down} {
     font-size: $h4-fontsize;
   }
 }
 
+.highlight {
+  padding: 10px;
+  background-color: $highlight-color;
+}
+
 .parallax-container {
   height: calc(100vh - 56px);
   min-height: $small-screen;
+  background-color: rgba($primary-color-dark, 0.5);
 
   @media #{$medium-and-up} {
     height: calc(100vh - 64px);
