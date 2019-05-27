@@ -15,11 +15,9 @@ export class CountDownComponent implements OnInit {
   hoursRemaining: number;
   minutesRemaining: number;
   secondsRemaining: number;
-  eventAlreadyStarted: boolean;
+  eventAlreadyStarted = false;
 
-  constructor() {
-    this.eventAlreadyStarted = false;
-  }
+  constructor() {}
 
   ngOnInit(): void {
     this.eventDate = moment(this.date, 'DD-MM-YYYY HH:mm');

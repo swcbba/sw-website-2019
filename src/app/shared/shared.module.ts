@@ -6,8 +6,16 @@ import { TransparentNavbarDirective } from './directives/transparent-navbar.dire
 import { TwoDigitsTransformPipe } from './pipes/two-digits-transform.pipe';
 
 @NgModule({
-  declarations: [ParallaxDirective, TransparentNavbarDirective, TwoDigitsTransformPipe],
-  exports: [ParallaxDirective, TransparentNavbarDirective, TwoDigitsTransformPipe],
+  declarations: [
+    ParallaxDirective,
+    TransparentNavbarDirective,
+    TwoDigitsTransformPipe
+  ],
+  exports: [
+    ParallaxDirective,
+    TransparentNavbarDirective,
+    TwoDigitsTransformPipe
+  ],
   imports: [CommonModule]
 })
 export class SharedModule {}

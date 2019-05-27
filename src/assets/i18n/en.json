@@ -5,6 +5,7 @@
   },
   "home": {
     "start": "Home",
+    "about": "About",
     "events": "Events",
     "partners": "Partners",
     "location": "Location"

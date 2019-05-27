@@ -5,9 +5,10 @@
   },
   "home": {
     "start": "Inicio",
+    "about": "Acerca de",
     "events": "Eventos",
     "partners": "Socios",
-    "location": "Ubicacion"
+    "location": "Ubicación"
   },
   "main-event": {
     "name": "Startup Weekend",

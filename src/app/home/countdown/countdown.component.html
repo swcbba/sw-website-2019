@@ -1,76 +1,65 @@
-<div *ngIf="!eventAlreadyStarted" class="hide-on-small-only">
-  <div class="row container">
-    <div class="col s12 center-align">
-      <h3 id="countdown-title flow-tex">{{ 'countdown.title' | translate}} </h3>
-    </div>
-  </div>
-  <div class="row container">
-    <div class="col s3">
-      <div class="card">
-        <div class="center-align  section">
-          <h4>{{ daysRemaining | twoDigitsTransform }}</h4>
+<div class="container section center-align">
+  <ng-container *ngIf="!eventAlreadyStarted">
+    <h3 class="truncate">{{ 'countdown.title' | translate}}:</h3>
+    <div class="hide-on-small-only">
+      <div class="row">
+        <div class="col s3">
+          <div class="card">
+            <div class="section">
+              <h4>{{ daysRemaining | twoDigitsTransform }}</h4>
+            </div>
+            <div class="card-content">
+              <span class="white-text">{{ 'countdown.days' | translate }}</span>
+            </div>
+          </div>
         </div>
-        <div class="card-content center-align">
-          <span class="white-text">{{ 'countdown.days' | translate }}</span>
+        <div class="col s3">
+          <div class="card">
+            <div class="section">
+              <h4>{{ hoursRemaining | twoDigitsTransform }}</h4>
+            </div>
+            <div class="card-content">
+              <span class="white-text">{{ 'countdown.hours' | translate }}</span>
+            </div>
+          </div>
+        </div>
+        <div class="col s3">
+          <div class="card">
+            <div class="section">
+              <h4>{{ minutesRemaining | twoDigitsTransform }}</h4>
+            </div>
+            <div class="card-content">
+              <span class="white-text">{{ 'countdown.minutes' | translate }}</span>
+            </div>
+          </div>
+        </div>
+        <div class="col s3">
+          <div class="card">
+            <div class="section">
+              <h4>{{ secondsRemaining | twoDigitsTransform }}</h4>
+            </div>
+            <div class="card-content">
+              <span class="white-text">{{ 'countdown.seconds' | translate }}</span>
+            </div>
+          </div>
         </div>
       </div>
     </div>
-    <div class="col s3">
-      <div class="card">
-        <div class="center-align section">
-          <h4>{{ hoursRemaining | twoDigitsTransform }}</h4>
-        </div>
-        <div class="card-content center-align">
-          <span class="white-text">{{ 'countdown.hours' | translate }}</span>
-        </div>
-      </div>
-    </div>
-    <div class="col s3">
-      <div class="card">
-        <div class="center-align section">
-          <h4>{{ minutesRemaining | twoDigitsTransform }}</h4>
-        </div>
-        <div class="card-content center-align">
-          <span class="white-text">{{ 'countdown.minutes' | translate }}</span>
+    <div class="hide-on-med-and-up">
+      <div class="row">
+        <div class="col s12">
+          <div class="card section">
+            <b class="truncate">
+              {{ 'countdown.days' | translate }}: {{ daysRemaining | twoDigitsTransform }} |
+              {{ 'countdown.hours' | translate }}: {{ hoursRemaining | twoDigitsTransform }} |
+              {{ 'countdown.minutes' | translate }}: {{ minutesRemaining | twoDigitsTransform }}
+            </b>
+          </div>
         </div>
       </div>
     </div>
-    <div class="col s3">
-      <div class="card">
-        <div class="center-align section">
-          <h4>{{ secondsRemaining | twoDigitsTransform }}</h4>
-        </div>
-        <div class="card-content center-align">
-          <span class="white-text">{{ 'countdown.seconds' | translate }}</span>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-<div *ngIf="!eventAlreadyStarted" class="row container show-on-small hide-on-med-and-up">
-  <div class="row container">
-    <div class="col s12 center-align">
-      <h5 class="count-title-mobile main-color">{{ 'countdown.title' | translate }}</h5>
-    </div>
-  </div>
-  <div class="col s12">
-    <div class="card">
-      <div class="center-align">
-        <b class="truncate">
-          {{ 'countdown.days' | translate}}: {{daysRemaining | twoDigitsTransform }} | 
-          {{ 'countdown.hours' | translate}}: {{hoursRemaining | twoDigitsTransform }} |
-          {{ 'countdown.minutes' | translate}}: {{minutesRemaining | twoDigitsTransform }}
-        </b>
-      </div>
-    </div>
-  </div>
-</div>
-<div *ngIf="eventAlreadyStarted">
-  <div class="container">
-    <div class="row section">
-        <div class="col s12 card center-align">
-          <h2 id="countdown-title">{{ 'countdown.event-started' | translate }}</h2>
-        </div>
-    </div>
-  </div>
+  </ng-container>
+  <ng-container *ngIf="eventAlreadyStarted">
+    <h3 class="truncate">{{ 'countdown.event-started' | translate }}</h3>
+  </ng-container>
 </div>
