@@ -43,9 +43,13 @@ h3.section-title {
   }
 }
 
-.highlight {
+.highlight-area {
   padding: 10px;
   background-color: $highlight-color;
+}
+
+.highlight-text {
+  color: $highlight-color;
 }
 
 .parallax-container {

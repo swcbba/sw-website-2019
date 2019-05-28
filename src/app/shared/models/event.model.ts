@@ -8,6 +8,7 @@ export interface Event extends DataType {
   link: string;
   place: string;
   logoUrl: string;
-  description: string;
+  descriptionEn: string;
+  descriptionSp: string;
   date: firestore.Timestamp;
 }
