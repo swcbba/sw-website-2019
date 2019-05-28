@@ -4,6 +4,7 @@ import { Observable } from 'rxjs';
 
 import { SponsorService } from './sponsor.service';
 import { Sponsor } from '../../shared/models/sponsor.model';
+import { EventResources } from '../../shared/constants/event-resources.constant';
 
 @Component({
   selector: 'sw-sponsors',
@@ -12,6 +13,7 @@ import { Sponsor } from '../../shared/models/sponsor.model';
 })
 export class SponsorsComponent implements OnInit {
   sponsors$: Observable<Sponsor[]>;
+  briefUrl = EventResources.briefUrl;
 
   constructor(private sponsorService: SponsorService) {}
 
