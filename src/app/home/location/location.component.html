@@ -3,7 +3,9 @@
   [draggableCursor]="'default'" [disableDoubleClickZoom]="false" [zoomControl]="false">
   <agm-marker [latitude]="eventLocationInfo.latitude" [longitude]="eventLocationInfo.longitude">
     <agm-info-window [isOpen]="true">
-      <h5>{{ eventLocationInfo.eventName }}</h5>
+      <a [href]="mapUrl" target="_blank" rel="noopener noreferrer">
+        <h6>{{ eventLocationInfo.eventName }}</h6>
+      </a>
       <p>{{ eventLocationInfo.placeName }}</p>
       <p>{{ eventLocationInfo.city }}</p>
       <p>{{ eventLocationInfo.country }}</p>

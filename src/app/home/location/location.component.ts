@@ -10,4 +10,7 @@ import { Location } from '../../shared/constants/location.constant';
 export class LocationComponent {
   eventLocationInfo = Location;
   zoom = 18;
+  mapUrl = `https://maps.google.com/maps?ll=${this.eventLocationInfo.latitude},${
+    this.eventLocationInfo.longitude
+  }&z=${this.zoom}`;
 }
