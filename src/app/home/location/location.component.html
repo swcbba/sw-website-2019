@@ -1,6 +1,6 @@
 <agm-map [latitude]="eventLocationInfo.latitude" [longitude]="eventLocationInfo.longitude" [zoom]="zoom"
   [scrollwheel]="false" [clickableIcons]="false" [mapDraggable]="false" [streetViewControl]="false"
-  [draggableCursor]="'url()'" [disableDoubleClickZoom]="false" [zoomControl]="false">
+  [draggableCursor]="'default'" [disableDoubleClickZoom]="false" [zoomControl]="false">
   <agm-marker [latitude]="eventLocationInfo.latitude" [longitude]="eventLocationInfo.longitude">
     <agm-info-window [isOpen]="true">
       <h5>{{ eventLocationInfo.eventName }}</h5>

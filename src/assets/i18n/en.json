@@ -27,13 +27,12 @@
     "student": "Student",
     "designer": "Designer",
     "finance": "Finance",
-    "marketing": "Marketing",
-    "call-to-action": "Not in the list?"
+    "marketing": "Marketing"
   },
   "footer": {
     "title": "Startup Weekend Cochabamba",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    "social-title": "Our social networks"
+    "description": "Startup Weekend is one of the largest and most recognized programs for entrepreneurs worldwide.",
+    "contact-title": "Contact us"
   },
   "partner": {
     "partners": "Partners"
