@@ -11,7 +11,8 @@
     "e2e": "ng e2e",
     "firebase:deploy": "firebase deploy",
     "keys:create": "cat ./src/environments/keys.template.ts > ./src/environments/keys.ts",
-    "keys:inject": "echo $KEYS > ./src/environments/keys.ts"
+    "keys:inject": "echo $KEYS > ./src/environments/keys.ts",
+    "compodoc": "npx compodoc -p src/tsconfig.app.json"
   },
   "private": true,
   "dependencies": {
