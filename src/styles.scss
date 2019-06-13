@@ -53,7 +53,7 @@ h3.section-title {
 
 .parallax-container {
   height: calc(100vh - 56px);
-  min-height: $small-screen;
+  min-height: $parallax-min-height;
   background-color: rgba($primary-color-dark, 0.5);
 
   @media #{$medium-and-up} {

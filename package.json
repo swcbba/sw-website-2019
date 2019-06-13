@@ -9,7 +9,7 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "firebase:deploy": "firebase deploy",
+    "firebase:deploy": "firebase deploy -P default",
     "keys:create": "cat ./src/environments/keys.template.ts > ./src/environments/keys.ts",
     "keys:inject": "echo $KEYS > ./src/environments/keys.ts"
   },

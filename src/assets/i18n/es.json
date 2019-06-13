@@ -12,7 +12,7 @@
   },
   "main-event": {
     "name": "Startup Weekend",
-    "slogan": "Haz algo increíble",
+    "slogan": "Consciencia Verde",
     "place-and-date": "Cochabamba. 21 - 23 Junio, 2019",
     "call-to-action": "Adquirir entrada"
   },
@@ -22,12 +22,12 @@
   },
   "participants": {
     "title": "¿Quiénes pueden participar?",
-    "developer": "Desarrollador",
+    "developer": "Agente de cambio",
     "entrepreneur": "Emprendedor",
     "student": "Estudiante",
     "designer": "Diseñador",
-    "finance": "Finanzas",
-    "marketing": "Marketing"
+    "finance": "Desarrollador verde",
+    "marketing": "TÚ"
   },
   "footer": {
     "title": "Startup Weekend Cochabamba",
@@ -42,8 +42,8 @@
     "read-more": "Leer Más"
   },
   "about": {
-    "title": "¿Qué es el Startup Weekend?",
-    "detail": "Startup Weekend es uno de los programas para emprendedores más grande y reconocido a nivel mundial, donde en 54 horas se reúnen personas de todos los perfiles para convertir sus ideas en negocios innovadores reales."
+    "title": "¿Qué es el Startup Weekend Sustainable Revolution?",
+    "detail": "Es una iniciativa global dirigida por voluntarios para poner el desarrollo sostenible a la vanguardia del escenario mundial. Debido a que la sostenibilidad ambiental es uno de los mayores desafíos a los que se enfrenta la humanidad, es nuestro deber ayudar a los emprendedores a encontrar las mejores soluciones para superarla."
   },
   "countdown": {
     "title": "El evento empieza en",
@@ -54,6 +54,6 @@
     "event-started": "El evento ya ha dado inicio"
   },
   "metrics": {
-    "title": "Impacto en Cochabamba"
+    "title": "Impacto en el mundo"
   }
 }
