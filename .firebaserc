@@ -1,5 +1,6 @@
 {
   "projects": {
-    "default": "swcbbadev"
+    "default": "swcbbadev",
+    "sustainable": "sustainable-swcbba"
   }
 }

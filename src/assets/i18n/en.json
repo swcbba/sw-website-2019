@@ -5,15 +5,16 @@
   },
   "home": {
     "start": "Home",
+    "about": "About",
     "events": "Events",
     "partners": "Partners",
     "location": "Location"
   },
   "main-event": {
     "name": "Startup Weekend",
-    "slogan": "Do something awesome",
+    "slogan": "Consciencia Verde",
     "place-and-date": "Cochabamba. 21-23 June, 2019",
-    "call-to-action": "Buy ticket"
+    "call-to-action": "Get ticket"
   },
   "sponsor": {
     "sponsors": "Sponsors",
@@ -21,18 +22,17 @@
   },
   "participants": {
     "title": "Who can participate?",
-    "developer": "Developer",
+    "developer": "Change agent",
     "entrepreneur": "Entrepreneur",
     "student": "Student",
     "designer": "Designer",
-    "finance": "Finance",
-    "marketing": "Marketing",
-    "call-to-action": "Not in the list?"
+    "finance": "Green dev",
+    "marketing": "YOU"
   },
   "footer": {
     "title": "Startup Weekend Cochabamba",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    "social-title": "Our social networks"
+    "description": "Startup Weekend is one of the largest and most recognized programs for entrepreneurs worldwide.",
+    "contact-title": "Contact us"
   },
   "partner": {
     "partners": "Partners"
@@ -42,8 +42,19 @@
     "read-more": "Read more"
   },
   "about": {
-    "title": "What is Startup Weekend?",
-    "detail": "Startup Weekend is one of the largest and most recognized programs for entrepreneurs worldwide, where in 54 hours people of all profiles meet to turn their ideas into real innovative businesses."
+    "title": "What is Startup Weekend Sustainable Revolution?",
+    "detail": "It is a global initiative led by volunteers in order to put sustainable development at the forefront of the world stage. Because environmental sustainability is one of the biggest challenges humanity is facing, it’s our duty to help entrepreneurs find the best solutions to overcome it."
+  },
+  "countdown": {
+    "title": "The event starts in",
+    "days": "Days",
+    "hours": "Hours",
+    "minutes": "Minutes",
+    "seconds": "Seconds",
+    "event-started": "This event was started"
+  },
+  "metrics": {
+    "title": "Impact in the world"
   },
   "testimonial": {
     "testimonials": "Testimonials"

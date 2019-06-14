@@ -18,6 +18,9 @@ import { PartnersComponent } from './partners/partners.component';
 import { PartnerService } from './partners/partner.service';
 import { AboutComponent } from './about/about.component';
 import { ScrollSpyDirective } from './scroll-spy.directive';
+import { CountDownComponent } from './countdown/countdown.component';
+import { MetricsComponent } from './metrics/metrics.component';
+import { MetricsService } from './metrics/metrics.service';
 import { TestimonialsComponent } from './testimonials/testimonials.component';
 import { TestimonialsDirective } from './testimonials/testimonials.directive';
 import { TestimonialsService } from './testimonials/testimonials.service';
@@ -33,6 +36,8 @@ import { TestimonialsService } from './testimonials/testimonials.service';
     PartnersComponent,
     AboutComponent,
     ScrollSpyDirective,
+    CountDownComponent,
+    MetricsComponent,
     TestimonialsComponent,
     TestimonialsDirective
   ],
@@ -42,6 +47,6 @@ import { TestimonialsService } from './testimonials/testimonials.service';
     TranslateModule,
     AgmCoreModule.forRoot(environment.googleMaps)
   ],
-  providers: [EventService, SponsorService, PartnerService, TestimonialsService]
+  providers: [EventService, SponsorService, PartnerService, MetricsService, TestimonialsService]
 })
 export class HomeModule {}

@@ -10,9 +10,13 @@ import { SocialLink } from '../../shared/models/social-link.model';
 export class FooterComponent implements OnInit {
   currentYear: number;
   socialLinks = [
-    new SocialLink('Facebook', 'https://es-la.facebook.com/'),
-    new SocialLink('Twiter', 'https://twitter.com/'),
-    new SocialLink('Instagram', 'https://www.instagram.com/')
+    new SocialLink(
+      'Facebook',
+      'https://www.facebook.com/StartupWeekendCochabamba/',
+      'fa-facebook'
+    ),
+    new SocialLink('Twiter', 'https://twitter.com/swcbba/', 'fa-twitter'),
+    new SocialLink('Instagram', 'https://instagram.com/swcbba/', 'fa-instagram')
   ];
 
   ngOnInit(): void {
