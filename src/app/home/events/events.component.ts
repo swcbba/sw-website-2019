@@ -5,6 +5,7 @@ import { Observable } from 'rxjs';
 import { LanguageService } from '../../core/services/language.service';
 import { EventService } from './event.service';
 import { Event } from '../../shared/models/event.model';
+import { DataOrder } from 'src/app/shared/models/data-type.model';
 
 @Component({
   selector: 'sw-events',
@@ -20,6 +21,6 @@ export class EventsComponent implements OnInit {
   ) {}
 
   ngOnInit(): void {
-    this.events$ = this.eventsService.getAll();
+    this.events$ = this.eventsService.getAllSorted('date', DataOrder.asc);
   }
 }
