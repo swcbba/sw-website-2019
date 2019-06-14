@@ -19,6 +19,8 @@ import { PartnerService } from './partners/partner.service';
 import { AboutComponent } from './about/about.component';
 import { ScrollSpyDirective } from './scroll-spy.directive';
 import { TestimonialsComponent } from './testimonials/testimonials.component';
+import { TestimonialsDirective } from './testimonials/testimonials.directive';
+import { TestimonialsService } from './testimonials/testimonials.service';
 
 @NgModule({
   declarations: [
@@ -31,7 +33,8 @@ import { TestimonialsComponent } from './testimonials/testimonials.component';
     PartnersComponent,
     AboutComponent,
     ScrollSpyDirective,
-    TestimonialsComponent
+    TestimonialsComponent,
+    TestimonialsDirective
   ],
   imports: [
     CommonModule,
@@ -39,6 +42,6 @@ import { TestimonialsComponent } from './testimonials/testimonials.component';
     TranslateModule,
     AgmCoreModule.forRoot(environment.googleMaps)
   ],
-  providers: [EventService, SponsorService, PartnerService]
+  providers: [EventService, SponsorService, PartnerService, TestimonialsService]
 })
 export class HomeModule {}
