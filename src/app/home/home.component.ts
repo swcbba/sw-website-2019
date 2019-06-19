@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./home.component.scss']
 })
 export class HomeComponent {
-  eventDate = '27-06-2019 15:00';
+  eventDate = '21-06-2019 15:00';
 }
