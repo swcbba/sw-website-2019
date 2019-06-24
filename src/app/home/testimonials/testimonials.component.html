@@ -1,5 +1,5 @@
 <div class="section">
-  <div *ngIf="!isLoading">
+  <div *ngIf="testimonials.length > 0">
     <div swCarousel class="carousel carousel-slider white lighten-4">
       <div class="carousel-item" *ngFor="let testimonial of testimonials">
         <div class="card row testimonial-container">

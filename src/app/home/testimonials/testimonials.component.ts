@@ -14,7 +14,6 @@ import { LanguageService } from '../../core/services/language.service';
 export class TestimonialsComponent implements OnInit, OnDestroy {
   testimonialsSub: Subscription;
   testimonials: Testimonial[];
-  isLoading = true;
 
   constructor(
     private testimonialService: TestimonialsService,
@@ -25,7 +24,6 @@ export class TestimonialsComponent implements OnInit, OnDestroy {
       .getAll()
       .subscribe((testimonials) => {
         this.testimonials = testimonials;
-        this.isLoading = false;
     });
   }
 
