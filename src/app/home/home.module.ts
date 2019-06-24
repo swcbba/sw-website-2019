@@ -22,7 +22,7 @@ import { CountDownComponent } from './countdown/countdown.component';
 import { MetricsComponent } from './metrics/metrics.component';
 import { MetricsService } from './metrics/metrics.service';
 import { TestimonialsComponent } from './testimonials/testimonials.component';
-import { TestimonialsDirective } from './testimonials/testimonials.directive';
+import { CarouselDirective } from './testimonials/carousel.directive';
 import { TestimonialsService } from './testimonials/testimonials.service';
 
 @NgModule({
@@ -39,7 +39,7 @@ import { TestimonialsService } from './testimonials/testimonials.service';
     CountDownComponent,
     MetricsComponent,
     TestimonialsComponent,
-    TestimonialsDirective
+    CarouselDirective
   ],
   imports: [
     CommonModule,

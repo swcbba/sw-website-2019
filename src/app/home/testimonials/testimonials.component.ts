@@ -4,6 +4,7 @@ import { Subscription } from 'rxjs';
 
 import { TestimonialsService } from './testimonials.service';
 import { Testimonial } from '../../shared/models/testimonial.model';
+import { LanguageService } from '../../core/services/language.service';
 
 @Component({
   selector: 'sw-testimonials',
@@ -15,12 +16,14 @@ export class TestimonialsComponent implements OnInit, OnDestroy {
   testimonials: Testimonial[];
   isLoading = true;
 
-  constructor(private testimonialService: TestimonialsService) {}
+  constructor(
+    private testimonialService: TestimonialsService,
+    public languageService: LanguageService) {}
 
-  ngOnInit() {
+  ngOnInit(): void {
     this.testimonialsSub = this.testimonialService
       .getAll()
-      .subscribe((testimonials: Testimonial[]) => {
+      .subscribe((testimonials) => {
         this.testimonials = testimonials;
         this.isLoading = false;
     });

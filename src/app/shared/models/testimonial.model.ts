@@ -2,9 +2,10 @@ import {DataType} from './data-type.model';
 
 export interface Testimonial extends DataType {
   id: string;
-  namePerson: string;
+  personName: string;
   profession: string;
-  testimonial: string;
+  testimonialSp: string;
+  testimonialEn: string;
   eventParticipation: string;
-  urlPicture: string;
+  picture: string;
 }

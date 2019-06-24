@@ -5,7 +5,7 @@ import { Carousel } from 'materialize-css';
 @Directive({
   selector: '[swCarousel]'
 })
-export class TestimonialsDirective implements AfterViewInit {
+export class CarouselDirective implements AfterViewInit {
   constructor(private elementRef: ElementRef) {}
 
   ngAfterViewInit(): void {

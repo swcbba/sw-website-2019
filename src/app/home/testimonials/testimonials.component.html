@@ -3,16 +3,16 @@
     <div swCarousel class="carousel carousel-slider white lighten-4">
       <div class="carousel-item" *ngFor="let testimonial of testimonials">
         <div class="card row testimonial-container">
-          <div class="col s12 m12 l6 student-picture hide-on-med-and-down center-align">
-            <img class="responsive-img" [src]="testimonial.urlPicture" [alt]="testimonial.namePerson">
+          <div class="col s12 m12 l6 picture hide-on-med-and-down center-align">
+            <img class="responsive-img" [src]="testimonial.picture" [alt]="testimonial.personName">
           </div>
           <div class="col s12 m12 l6">
             <h3 class="section-title">{{ 'testimonial.testimonials' | translate }}</h3>
-            <h5>{{ testimonial.namePerson }}</h5>
+            <h5>{{ testimonial.personName }}</h5>
             <p>{{ testimonial.profession }}</p>
             <div class="testimonial-description-container testimonial-description">
-              <p class="">
-                {{ testimonial.testimonial }}
+              <p>
+                {{ languageService.currentLanguage === 'es' ? testimonial.testimonialSp : testimonial.testimonialEn }}
               </p>
             </div>
           </div>
