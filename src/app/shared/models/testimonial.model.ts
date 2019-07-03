@@ -1,4 +1,4 @@
-import {DataType} from './data-type.model';
+import { DataType } from './data-type.model';
 
 export interface Testimonial extends DataType {
   id: string;
