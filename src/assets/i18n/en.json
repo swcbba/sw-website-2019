@@ -1,0 +1,60 @@
+{
+  "language": {
+    "english": "EN",
+    "spanish": "ES"
+  },
+  "home": {
+    "start": "Home",
+    "about": "About",
+    "events": "Events",
+    "partners": "Partners",
+    "sponsors": "Sponsors",
+    "location": "Location"
+  },
+  "main-event": {
+    "name": "Startup Weekend",
+    "slogan": "Consciencia Verde",
+    "place-and-date": "Cochabamba. 21-23 June, 2019",
+    "call-to-action": "Get ticket"
+  },
+  "sponsor": {
+    "sponsors": "Sponsors",
+    "become-sponsor": "Become a sponsor"
+  },
+  "participants": {
+    "title": "Who can participate?",
+    "developer": "Change agent",
+    "entrepreneur": "Entrepreneur",
+    "student": "Student",
+    "designer": "Designer",
+    "finance": "Green dev",
+    "marketing": "YOU"
+  },
+  "footer": {
+    "title": "Startup Weekend Cochabamba",
+    "description": "Startup Weekend is one of the largest and most recognized programs for entrepreneurs worldwide.",
+    "contact-title": "Contact us"
+  },
+  "partner": {
+    "partners": "Partners"
+  },
+  "event": {
+    "events": "Events",
+    "read-more": "Read more"
+  },
+  "about": {
+    "title": "What is Startup Weekend Sustainable Revolution?",
+    "detail": "It is a global initiative led by volunteers in order to put sustainable development at the forefront of the world stage. Because environmental sustainability is one of the biggest challenges humanity is facing, it’s our duty to help entrepreneurs find the best solutions to overcome it."
+  },
+  "countdown": {
+    "title": "The event starts in",
+    "days": "Days",
+    "hours": "Hours",
+    "minutes": "Minutes",
+    "seconds": "Seconds",
+    "event-started": "This event was started"
+  },
+  "metrics": {
+    "title": "Impact in the world"
+  }
+}

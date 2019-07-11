@@ -1,0 +1,21 @@
+<div swTransparentNavbar class="parallax-container top-section valign-wrapper">
+  <div class="parallax-container-data center-align">
+    <div class="container">
+      <div class="row">
+        <img id="banner-logo" src="assets/images/GSWSR-White.png" [alt]="'main-event.name' | translate">
+        <h3 class="section-title">{{ 'main-event.slogan' | translate }}</h3>
+        <h6 id="place-and-date">{{ 'main-event.place-and-date' | translate }}</h6>
+        <br>
+        <a class="btn-large waves-effect" [href]="registrationFormUrl" target="_blank" rel="noopener noreferrer">
+          {{ 'main-event.call-to-action' | translate }}
+        </a>
+        <span id="arrow-down">
+          <i class="fas fa-chevron-down fa-2x highlight-text"></i>
+        </span>
+      </div>
+    </div>
+  </div>
+  <div swParallax class="parallax">
+    <img src="assets/images/home/1.jpg" [alt]="'main-event.name' | translate">
+  </div>
+</div>

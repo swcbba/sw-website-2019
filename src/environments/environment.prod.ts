@@ -1,3 +1,7 @@
+import { FirebaseConfig, GoogleMapsConfig } from './keys';
+
 export const environment = {
-  production: true
+  production: true,
+  firebase: FirebaseConfig,
+  googleMaps: GoogleMapsConfig
 };

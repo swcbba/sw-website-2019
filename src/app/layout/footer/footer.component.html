@@ -1,0 +1,25 @@
+<footer class="page-footer">
+  <div class="container">
+    <div class="row">
+      <div class="col l6 s12">
+        <h5 class="highlight-text">{{ 'footer.title' | translate }}</h5>
+        <p class="highlight-text">{{ 'footer.description' | translate }}</p>
+      </div>
+      <div class="col l4 offset-l2 s12">
+        <h5 class="highlight-text">{{ 'footer.contact-title' | translate }}</h5>
+        <ul>
+          <li *ngFor="let socialLink of socialLinks">
+            <a class="highlight-text" [href]="socialLink.link" target="_blank" rel="noopener noreferrer">
+              <i [class]="'fab ' + socialLink.icon"></i> {{ socialLink.name }}
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="footer-copyright">
+    <div class="container">
+      © {{ currentYear }} Copyright Startup Weekend Cochabamba
+    </div>
+  </div>
+</footer>

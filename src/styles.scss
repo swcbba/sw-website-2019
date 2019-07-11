@@ -1,1 +1,66 @@
-/* You can add global styles to this file, and also import other style files */
+@import './styles-colors';
+@import './styles-mat-variables';
+@import '../node_modules/aos/dist/aos.css';
+@import '../node_modules/@fortawesome/fontawesome-free/css/all.css';
+@import '../node_modules/materialize-css/sass/materialize';
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+sw-root {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+main {
+  flex: 1 0 auto;
+}
+
+a {
+  cursor: pointer;
+}
+
+.section {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.top-section {
+  position: relative;
+  z-index: 997;
+}
+
+h3.section-title {
+  color: $primary-color-dark;
+  font-weight: bold;
+
+  @media #{$small-and-down} {
+    font-size: $h4-fontsize;
+  }
+}
+
+.highlight-area {
+  padding: 10px;
+  background-color: $highlight-color;
+}
+
+.highlight-text {
+  color: $highlight-color;
+}
+
+.parallax-container {
+  height: calc(100vh - 56px);
+  min-height: $parallax-min-height;
+  background-color: rgba($primary-color-dark, 0.5);
+
+  @media #{$medium-and-up} {
+    height: calc(100vh - 64px);
+  }
+
+  &-data {
+    width: 100%;
+  }
+}
