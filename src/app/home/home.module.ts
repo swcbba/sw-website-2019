@@ -21,6 +21,7 @@ import { ScrollSpyDirective } from './scroll-spy.directive';
 import { CountDownComponent } from './countdown/countdown.component';
 import { MetricsComponent } from './metrics/metrics.component';
 import { MetricsService } from './metrics/metrics.service';
+import { VideosSectionComponent } from './videos-section/videos-section.component';
 
 @NgModule({
   declarations: [
@@ -34,7 +35,8 @@ import { MetricsService } from './metrics/metrics.service';
     AboutComponent,
     ScrollSpyDirective,
     CountDownComponent,
-    MetricsComponent
+    MetricsComponent,
+    VideosSectionComponent
   ],
   imports: [
     CommonModule,
