@@ -1,0 +1,19 @@
+@import '../../../styles-mat-variables';
+
+.testimonial-container {
+  margin-bottom: 0;
+}
+
+.picture {
+  padding: 0 0;
+}
+
+.carousel {
+  @media #{$large-and-up} {
+    height: 340px !important;
+  }
+
+  @media #{$medium-only} {
+    height: 350px !important;
+  }
+}

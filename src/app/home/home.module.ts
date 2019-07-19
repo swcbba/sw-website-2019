@@ -21,6 +21,9 @@ import { ScrollSpyDirective } from './scroll-spy.directive';
 import { CountDownComponent } from './countdown/countdown.component';
 import { MetricsComponent } from './metrics/metrics.component';
 import { MetricsService } from './metrics/metrics.service';
+import { TestimonialsComponent } from './testimonials/testimonials.component';
+import { CarouselDirective } from './testimonials/carousel.directive';
+import { TestimonialsService } from './testimonials/testimonials.service';
 
 @NgModule({
   declarations: [
@@ -34,7 +37,9 @@ import { MetricsService } from './metrics/metrics.service';
     AboutComponent,
     ScrollSpyDirective,
     CountDownComponent,
-    MetricsComponent
+    MetricsComponent,
+    TestimonialsComponent,
+    CarouselDirective
   ],
   imports: [
     CommonModule,
@@ -42,6 +47,6 @@ import { MetricsService } from './metrics/metrics.service';
     TranslateModule,
     AgmCoreModule.forRoot(environment.googleMaps)
   ],
-  providers: [EventService, SponsorService, PartnerService, MetricsService]
+  providers: [EventService, SponsorService, PartnerService, MetricsService, TestimonialsService]
 })
 export class HomeModule {}

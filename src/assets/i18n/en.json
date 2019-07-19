@@ -56,5 +56,8 @@
   },
   "metrics": {
     "title": "Impact in the world"
+  },
+  "testimonial": {
+    "testimonials": "Testimonials"
   }
 }
